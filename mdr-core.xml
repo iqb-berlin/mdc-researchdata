@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDCat xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="https://raw.githubusercontent.com/fleckandreas/mdrs-core.xml/master/mdrs-core.xml" version="1.0.0">
+  <Label xml:lang="de">Basis-Katalog für die Erstellung von Metadatendefinitionen eines MDRS-Katalogs bzw. MDRS-Metadatendefinitionen</Label>  
+  <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
+  <License>MIT</License>
+  <MDDef id="1" type="textde">
+    <Label xml:lang="de">Hauptsprache</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="2" type="textde">
+    <Label xml:lang="de">optionale Sprachen</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="3" type="textde">
+    <Label xml:lang="de">Version</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="4" type="textde">
+    <Label xml:lang="de">License</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef> 
+  <MDDef id="5" type="textde">
+    <Label xml:lang="de">Sprache</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="6" type="textde">
+    <Label xml:lang="de">Bezeichnung</Label>
+    <Label xml:lang="en">Label</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>   
+   <MDDef id="7" type="textde">
+    <Label xml:lang="de">Beschreibung</Label>
+    <Label xml:lang="en">Description</Label>
+    <MDDefMetadata/>    
+    <TypeSpec>
+         <MultiLineText>true</MultiLineText>
+    </TypeSpec>
+  </MDDef>
+  <MDDef id="8" type="textde">
+    <Label xml:lang="de">Eigentümer</Label>
+    <Label xml:lang="en">Owner</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+ <MDDef id="9" type="textde">
+    <Label xml:lang="de">eindeutige ID</Label>
+    <Label xml:lang="en">unique id</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>     
+  <MDDef id="10" type="textde">
+    <Label xml:lang="de">defaultValue</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="11" type="textde">
+    <Label xml:lang="de">taxpos</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="12" type="boolean">
+    <Label xml:lang="de">required</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>
+  <MDDef id="13" type="textde">
+    <Label xml:lang="de">order</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>    
+</MDCat>
