@@ -5,6 +5,12 @@
   <Label xml:lang="de">Basis-Katalog für die Erstellung von Metadatendefinitionen eines MDRS-Katalogs bzw. MDRS-Metadatendefinitionen</Label>  
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <License>MIT</License>
+  <MDDef id="0" type="textde">
+    <Label xml:lang="de">eindeutige ID</Label>
+    <Label xml:lang="en">unique id</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>        
   <MDDef id="1" type="textde">
     <Label xml:lang="de">Hauptsprache</Label>
     <MDDefMetadata/>    
@@ -49,13 +55,7 @@
     <Label xml:lang="en">Owner</Label>
     <MDDefMetadata/>    
     <TypeSpec></TypeSpec>
-  </MDDef>
- <MDDef id="9" type="textde">
-    <Label xml:lang="de">eindeutige ID</Label>
-    <Label xml:lang="en">unique id</Label>
-    <MDDefMetadata/>    
-    <TypeSpec></TypeSpec>
-  </MDDef>     
+  </MDDef>  
   <MDDef id="10" type="textde">
     <Label xml:lang="de">defaultValue</Label>
     <MDDefMetadata/>    
