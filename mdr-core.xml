@@ -55,7 +55,13 @@
     <Label xml:lang="en">Owner</Label>
     <MDDefMetadata/>    
     <TypeSpec></TypeSpec>
-  </MDDef>  
+  </MDDef>
+  <MDDef id="9" type="date">
+    <Label xml:lang="de">Datum</Label>
+    <Label xml:lang="en">date</Label>
+    <MDDefMetadata/>    
+    <TypeSpec></TypeSpec>
+  </MDDef>     
   <MDDef id="10" type="textde">
     <Label xml:lang="de">defaultValue</Label>
     <MDDefMetadata/>    
