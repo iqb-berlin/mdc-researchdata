@@ -1,9 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
-       id="DOI:10.5159/IQB_MDR_FDZ_v1"
-       version="1.0.0"
-       versionhistory="">
+<?xml version="1.0" encoding="utf-8"?>
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd" id="DOI:10.5159/IQB_MDR_FDZ_v1" version="1.0.0" versionhistory="">
   <Label xml:lang="de" />
   <Description xml:lang="de" />
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
@@ -471,75 +467,75 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <Value id="2">
-      <Label xml:lang="de">1. Vollerhebung</Label>
+      <Label xml:lang="de">Vollerhebung</Label>
       <Label xml:lang="en">Complete Enumeration</Label>
 </Value>
     <Value id="3">
-      <Label xml:lang="de">2. Wahrscheinlichkeitsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Probability Sample</Label>
       </Value>
     <Value id="4">
-      <Label xml:lang="de">2.1 Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Simple Random Sample</Label>
       </Value>
     <Value id="5">
-      <Label xml:lang="de">2.2 Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Systematic Random Sample</Label>
       </Value>
     <Value id="6">
-      <Label xml:lang="de">2.3 Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Stratified Sample</Label>
       </Value>
     <Value id="7">
-      <Label xml:lang="de">2.3.1 Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Proportionate Stratified Sample</Label>
       </Value>
     <Value id="8">
-      <Label xml:lang="de">2.3.2 Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Disproportionate Stratified Sample</Label>
       </Value>
     <Value id="12">
-      <Label xml:lang="de">2.4 Wahrscheinlichkeitsauswahl: Klumpenauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Klumpenauswahl</Label>
       <Label xml:lang="en">Probability Sample: Cluster Sample</Label>
     </Value>
     <Value id="13">
-      <Label xml:lang="de">2.4.1 Wahrscheinlichkeitsauswahl: Einfache Klumpenauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Einfache Klumpenauswahl</Label>
       <Label xml:lang="en">Probability Sample: Simple Cluster Sample</Label>
     </Value>
     <Value id="15">
-      <Label xml:lang="de">2.4.2 Wahrscheinlichkeitsauswahl: Geschichtete Klumpenauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Geschichtete Klumpenauswahl</Label>
       <Label xml:lang="en">Probability Sample: Stratified Cluster Sample</Label>
     </Value>
     <Value id="16">
-      <Label xml:lang="de">2.5 Wahrscheinlichkeitsauswahl: Mehrstufige Zufallsauswahl</Label>
+      <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Mehrstufige Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Multistage Sample</Label>
     </Value>
     <Value id="26">
-      <Label xml:lang="de">3. Nicht-Wahrscheinlichkeitsauswahl</Label>
+      <Label xml:lang="de">Nicht-Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Non-probability Sample</Label>
     </Value>
     <Value id="45">
-      <Label xml:lang="de">3.1 Nicht-Wahrscheinlichkeitsauswahl: Willkürliche Auswahl</Label>
+      <Label xml:lang="de">Nicht-Wahrscheinlichkeitsauswahl: Willkürliche Auswahl</Label>
       <Label xml:lang="en">Non-Probability Sample: Availability Sample</Label>
     </Value>
     <Value id="43">
-      <Label xml:lang="de">3.2 Nicht-Wahrscheinlichkeitsauswahl: Bewusste Auswahl</Label>
+      <Label xml:lang="de">Nicht-Wahrscheinlichkeitsauswahl: Bewusste Auswahl</Label>
       <Label xml:lang="en">Non-Probability Sample: Purposive Sample</Label>
     </Value>
     <Value id="44">
-      <Label xml:lang="de">3.3 Nicht-Wahrscheinlichkeitsauswahl: Quotenstichprobe</Label>
+      <Label xml:lang="de">Nicht-Wahrscheinlichkeitsauswahl: Quotenstichprobe</Label>
       <Label xml:lang="en">Non-Probability Sample: Quota Sample</Label>
     </Value>
     <Value id="46">
-      <Label xml:lang="de">3.4 Nicht-Wahrscheinlichkeitsauswahl: Respondenten-gesteuerte Auswahl</Label>
+      <Label xml:lang="de">Nicht-Wahrscheinlichkeitsauswahl: Respondenten-gesteuerte Auswahl</Label>
       <Label xml:lang="en">Non-Probability Sample: Respondent-assisted Sample</Label>
     </Value>
     <Value id="47">
-      <Label xml:lang="de">4. Kombination aus Wahrscheinlichkeit- und Nicht-Wahrscheinlichkeitsauswahl</Label>
+      <Label xml:lang="de">Kombination aus Wahrscheinlichkeit- und Nicht-Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Mixed probability and non-probability Sample</Label>
     </Value>
     <Value id="48">
-      <Label xml:lang="de">5. Andere</Label>
+      <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
     <TypeSpec>
