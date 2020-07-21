@@ -541,7 +541,7 @@
     <TypeSpec>
       <ListControl>expandable</ListControl>
     </TypeSpec>
-  </MDDef>
+  <Value id="49"><Label xml:lang="de">Keine Angabe</Label><Label xml:lang="en">Not Given</Label></Value></MDDef>
   <MDDef id="13" type="textde">
     <Label xml:lang="de">Alternativtitel</Label>
     <Description xml:lang="de">wenn vorhanden</Description>
