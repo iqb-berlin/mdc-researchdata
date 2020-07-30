@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd" id="DOI:10.5159/IQB_MDR_FDZ_v1" version="1.0.0" versionhistory="">
-  <Label xml:lang="de" />
-  <Description xml:lang="de" />
+  <Label xml:lang="de">Katalog für Forschungsdaten des FDZ am IQB</Label>
+  <Description xml:lang="de">Dieser Katalog enthält die Metadaten-Definitionen sowohl für die Studiendaten als auch für die Antragstellung zur Nutzung der Daten.</Description>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <Owner xml:lang="en">IQB - Institute for Educational Quality Improvement</Owner>
   <License>MIT</License>
-  <DefaultMDDefMetadata />
   <MDDef id="2" type="listmultiselect">
     <Label xml:lang="de">Auftraggeber / Mittelgeber</Label>
     <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Bundesministerium für Bildung und Forschung (BMBF)</Label>
       <Label xml:lang="en">Federal Ministry of Education and Research </Label>
@@ -64,9 +66,6 @@
       <Label xml:lang="de">Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes NRW (ehemals: Ministerium für Familie, Kinder, Jugend, Kultur und Sport)</Label>
       <Label xml:lang="en">Ministry for Children, Family, Refugees and Integration of the Federal State of NRW</Label>
     </Value>
-    <TypeSpec>
-      <ListControl>expandable</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
@@ -74,6 +73,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">deutschlandweit</Label>
       <Label xml:lang="en">Germany</Label>
@@ -142,9 +144,6 @@
       <Label xml:lang="de">Thüringen</Label>
       <Label xml:lang="en">Thuringia</Label>
     </Value>
-    <TypeSpec>
-      <ListControl>expandable</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="5" type="listmultiselect">
     <Label xml:lang="de">Kontextfragebögen für</Label>
@@ -152,6 +151,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14 6</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Schülerinnen und Schüler</Label>
       <Label xml:lang="en">Students</Label>
@@ -227,10 +229,7 @@
       </Value>
     <Value id="23">
       <Label xml:lang="de">Studienzugangsberechtigte</Label>
-      </Value>
-    <TypeSpec>
-      <ListControl>expandable</ListControl>
-    </TypeSpec>
+    </Value>
   </MDDef>
   <MDDef id="6" type="listmultiselect">
     <Label xml:lang="de">Datentyp</Label>
@@ -238,6 +237,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Umfragedaten</Label>
       </Value>
@@ -249,10 +251,7 @@
       </Value>
     <Value id="4">
       <Label xml:lang="de">Anderweitige Datentypen</Label>
-      </Value>
-    <TypeSpec>
-      <ListControl>expandable</ListControl>
-    </TypeSpec>
+    </Value>
   </MDDef>
   <MDDef id="8" type="listmultiselect">
     <Label xml:lang="de">Erhebungsverfahren</Label>
@@ -260,6 +259,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Interview</Label>
       <Label xml:lang="en">Interview</Label>
@@ -420,19 +422,19 @@
       <Label xml:lang="de">Sonstiges</Label>
       <Label xml:lang="en">Other </Label>
     </Value>
-    <TypeSpec>
-      <ListControl>expandable</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="9" type="listmultiselect">
     <Label xml:lang="de">Verfügbarkeit</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="2">
       <Label xml:lang="de">SUF: Lieferbar für Re- und Sekundäranalysen</Label>
-      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
       <Label xml:lang="en">Delivery for re- and secondary analysis</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
     </Value>
     <Value id="7">
       <Label xml:lang="de">SUF: Lieferbar nur noch für Reanalysen</Label>
@@ -440,8 +442,8 @@
     </Value>
     <Value id="6">
       <Label xml:lang="de">SUF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
-      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
       <Label xml:lang="en">Application required: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
+      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
     </Value>
     <Value id="8">
       <Label xml:lang="de">CF: Downloadbar</Label>
@@ -453,12 +455,9 @@
     </Value>
     <Value id="5">
       <Label xml:lang="de">Nicht verfügbar</Label>
-      <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
       <Label xml:lang="en">Not available</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
     </Value>
-    <TypeSpec>
-      <ListControl>list</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="10" type="listmultiselect">
     <Label xml:lang="de">Auswahlverfahren</Label>
@@ -466,10 +465,13 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
     <Value id="2">
       <Label xml:lang="de">Vollerhebung</Label>
       <Label xml:lang="en">Complete Enumeration</Label>
-</Value>
+    </Value>
     <Value id="3">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Probability Sample</Label>
@@ -538,9 +540,6 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
-    <TypeSpec>
-      <ListControl>expandable</ListControl>
-    </TypeSpec>
   <Value id="49"><Label xml:lang="de">Keine Angabe</Label><Label xml:lang="en">Not Given</Label></Value></MDDef>
   <MDDef id="13" type="textde">
     <Label xml:lang="de">Alternativtitel</Label>
@@ -678,6 +677,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Sammlung</Label>
       <Label xml:lang="en">Collection</Label>
@@ -738,9 +740,6 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
-    <TypeSpec>
-      <ListControl>list</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="47" type="textde">
     <Label xml:lang="de">Erhebungszeitraum sonstiges</Label>
@@ -754,6 +753,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>float</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
       </Value>
@@ -766,15 +768,15 @@
     <Value id="4">
       <Label xml:lang="de">D</Label>
       </Value>
-    <TypeSpec>
-      <ListControl>float</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="49" type="listsingleselect">
     <Label xml:lang="de">Bewertung Rechtliche Anforderungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>float</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
       </Value>
@@ -786,16 +788,16 @@
       </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
-      </Value>
-    <TypeSpec>
-      <ListControl>float</ListControl>
-    </TypeSpec>
+    </Value>
   </MDDef>
   <MDDef id="50" type="listsingleselect">
     <Label xml:lang="de">Bewertung Technische Anforderungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>float</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
       </Value>
@@ -808,15 +810,15 @@
     <Value id="4">
       <Label xml:lang="de">D</Label>
       </Value>
-    <TypeSpec>
-      <ListControl>float</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="51" type="listsingleselect">
     <Label xml:lang="de">Bewertung Dokumentarische Anforderungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
       </Value>
@@ -828,10 +830,7 @@
       </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
-      </Value>
-    <TypeSpec>
-      <ListControl>list</ListControl>
-    </TypeSpec>
+    </Value>
   </MDDef>
   <MDDef id="52" type="textde">
     <Label xml:lang="de">Bewertung gesamt</Label>
@@ -858,6 +857,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>combobox</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">nicht beteiligt</Label>
       </Value>
@@ -866,10 +868,7 @@
       </Value>
     <Value id="3">
       <Label xml:lang="de">Vetorecht</Label>
-      </Value>
-    <TypeSpec>
-      <ListControl>combobox</ListControl>
-    </TypeSpec>
+    </Value>
   </MDDef>
   <MDDef id="58" type="textde">
     <Label xml:lang="de">Datenrestriktion</Label>
@@ -898,7 +897,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="66" type="integer">
@@ -908,7 +907,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="67" type="integer">
@@ -918,7 +917,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="68" type="integer">
@@ -928,7 +927,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="69" type="integer">
@@ -938,7 +937,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="70" type="textmultilang">
@@ -958,7 +957,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="72" type="integer">
@@ -968,7 +967,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="73" type="integer">
@@ -978,7 +977,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="74" type="integer">
@@ -988,7 +987,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="75" type="integer">
@@ -999,7 +998,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="76" type="integer">
@@ -1010,7 +1009,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="77" type="integer">
@@ -1021,7 +1020,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="78" type="textde">
@@ -1089,7 +1088,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="89" type="listmultiselect">
@@ -1098,6 +1097,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Längsschnitt</Label>
       <Label xml:lang="en">Longitudinal</Label>
@@ -1126,9 +1128,6 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
-    <TypeSpec>
-      <ListControl>list</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="90" type="listmultiselect">
     <Label xml:lang="de">Forschungsdesign (Research Design)</Label>
@@ -1136,6 +1135,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>list</ListControl>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Experimentelles Design</Label>
       <Label xml:lang="en">Experimental Design</Label>
@@ -1156,9 +1158,6 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
-    <TypeSpec>
-      <ListControl>list</ListControl>
-    </TypeSpec>
   </MDDef>
   <MDDef id="93" type="textmultilang">
     <Label xml:lang="de">ReadMe IZA</Label>
@@ -1195,7 +1194,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>True</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="97" type="boolean">
