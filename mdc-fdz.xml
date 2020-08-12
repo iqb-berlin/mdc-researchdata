@@ -65,6 +65,7 @@
       <Label xml:lang="de">Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes NRW (ehemals: Ministerium für Familie, Kinder, Jugend, Kultur und Sport)</Label>
       <Label xml:lang="en">Ministry for Children, Family, Refugees and Integration of the Federal State of NRW</Label>
     </Value>
+    <Label xml:lang="en">Commissioned by / Funders</Label>
   </MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
@@ -143,6 +144,7 @@
       <Label xml:lang="de">Thüringen</Label>
       <Label xml:lang="en">Thuringia</Label>
     </Value>
+    <Label xml:lang="en">Region</Label>
   </MDDef>
   <MDDef id="5" type="listmultiselect">
     <Label xml:lang="de">Kontextfragebögen für</Label>
@@ -237,6 +239,7 @@
       <Label xml:lang="de">Studienzugangsberechtigte</Label>
       <Label xml:lang="en" />
     </Value>
+    <Label xml:lang="en">Supplementary Material</Label>
   </MDDef>
   <MDDef id="6" type="listmultiselect">
     <Label xml:lang="de">Datentyp</Label>
@@ -263,10 +266,11 @@
       <Label xml:lang="de">Anderweitige Datentypen</Label>
       <Label xml:lang="en" />
     </Value>
+    <Label xml:lang="en">Resource Type</Label>
   </MDDef>
   <MDDef id="8" type="listmultiselect">
     <Label xml:lang="de">Erhebungsverfahren</Label>
-    <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/a1fb802d-6075-d123-1f26-6eb9f20d9984</Description>
+    <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/48f296c7-fba6-475c-e53b-3cee66b27453; Version 2</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
@@ -433,6 +437,7 @@
       <Label xml:lang="de">Sonstiges</Label>
       <Label xml:lang="en">Other </Label>
     </Value>
+    <Label xml:lang="en">Mode of Collection</Label>
   </MDDef>
   <MDDef id="9" type="listmultiselect">
     <Label xml:lang="de">Verfügbarkeit</Label>
@@ -469,6 +474,7 @@
       <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
       <Label xml:lang="en">Not available</Label>
     </Value>
+    <Label xml:lang="en">Availability</Label>
   </MDDef>
   <MDDef id="10" type="listmultiselect">
     <Label xml:lang="de">Auswahlverfahren</Label>
@@ -569,6 +575,7 @@
       <Label xml:lang="de">Keine Angabe</Label>
       <Label xml:lang="en">Not Given</Label>
     </Value>
+    <Label xml:lang="en">Sampling Method</Label>
   </MDDef>
   <MDDef id="13" type="textde">
     <Label xml:lang="de">Alternativtitel</Label>
@@ -576,18 +583,21 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">13 14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Alternative Title</Label>
   </MDDef>
   <MDDef id="22" type="date">
     <Label xml:lang="de">Studienbeginn</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Start of the Study</Label>
   </MDDef>
   <MDDef id="23" type="date">
     <Label xml:lang="de">Studienende</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">End of the Study</Label>
   </MDDef>
   <MDDef id="24" type="textde">
     <Label xml:lang="de">Verwandte Studien</Label>
@@ -608,18 +618,21 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Archiving Institution</Label>
   </MDDef>
   <MDDef id="28" type="date">
     <Label xml:lang="de">Erhebungsbeginn</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Start of the Survey</Label>
   </MDDef>
   <MDDef id="29" type="date">
     <Label xml:lang="de">Erhebungsende</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">End of the Survey</Label>
   </MDDef>
   <MDDef id="30" type="textde">
     <Label xml:lang="de">Verknüpfungsvariable</Label>
@@ -633,6 +646,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Link to Study</Label>
   </MDDef>
   <MDDef id="34" type="textde">
     <Label xml:lang="de">Region sonstiges</Label>
@@ -640,6 +654,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Region other</Label>
   </MDDef>
   <MDDef id="35" type="textmultilang">
     <Label xml:lang="de">Testpopulation</Label>
@@ -647,6 +662,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Test Population</Label>
   </MDDef>
   <MDDef id="37" type="date">
     <Label xml:lang="de">verfügbar seit</Label>
@@ -654,6 +670,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">available since</Label>
   </MDDef>
   <MDDef id="38" type="textde">
     <Label xml:lang="de">Erhebungsdesign sonstiges</Label>
@@ -661,6 +678,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Time Method other</Label>
   </MDDef>
   <MDDef id="40" type="textde">
     <Label xml:lang="de">Anmerkungen</Label>
@@ -674,6 +692,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Metadata Rights</Label>
   </MDDef>
   <MDDef id="42" type="textde">
     <Label xml:lang="de">Beschreibungstyp</Label>
@@ -698,8 +717,8 @@
     </Value>
   </MDDef>
   <MDDef id="43" type="listsingleselect">
-    <Label xml:lang="de">Typ der Ressource</Label>
-    <Description xml:lang="de">für da|ra-Export relevant</Description>
+    <Label xml:lang="de">Datenformat</Label>
+    <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/7e812b6c-ee57-a075-eb33-596e4e58f8ab; für da|ra-Export relevant</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
@@ -766,6 +785,7 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
+    <Label xml:lang="en">Data Format</Label>
   </MDDef>
   <MDDef id="47" type="textde">
     <Label xml:lang="de">Erhebungszeitraum sonstiges</Label>
@@ -773,6 +793,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Survey Period other</Label>
   </MDDef>
   <MDDef id="48" type="listsingleselect">
     <Label xml:lang="de">Bewertung Inhaltlicher Scope</Label>
@@ -904,11 +925,12 @@
     </MDDefMetadata>
   </MDDef>
   <MDDef id="56" type="boolean">
-    <Label xml:lang="de">Sperrvermerk</Label>
+    <Label xml:lang="de">Sperrvermerk/e</Label>
     <Description xml:lang="de">bei ja Häckchen setzen</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Blocking Note/s</Label>
   </MDDef>
   <MDDef id="57" type="listsingleselect">
     <Label xml:lang="de">Beteiligung Datengeber</Label>
@@ -939,11 +961,12 @@
     </MDDefMetadata>
   </MDDef>
   <MDDef id="59" type="textde">
-    <Label xml:lang="de">Sperrvermerk - Erläuterung</Label>
+    <Label xml:lang="de">Sperrvermerk/e - Erläuterung</Label>
     <Description xml:lang="de">für Angaben zu Sperrvermerken bei Variablen, bestimmten Fragestellungen; hier geht es um eine zeitliche Komponente; inhaltlich</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Blocking Note/s - Notes</Label>
   </MDDef>
   <MDDef id="64" type="textde">
     <Label xml:lang="de">Bemerkungen</Label>
@@ -1008,6 +1031,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Citation Proposal</Label>
   </MDDef>
   <MDDef id="71" type="integer">
     <Label xml:lang="de">wiMi: Eingangskontrolle</Label>
@@ -1088,6 +1112,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Restrictions and conditions</Label>
   </MDDef>
   <MDDef id="81" type="textmultilang">
     <Label xml:lang="de">Stichprobe</Label>
@@ -1095,6 +1120,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Sample</Label>
   </MDDef>
   <MDDef id="82" type="textmultilang">
     <Label xml:lang="de">erfasste Kompetenzen</Label>
@@ -1102,6 +1128,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Measured Competencies</Label>
   </MDDef>
   <MDDef id="83" type="boolean">
     <Label xml:lang="de">Sperrfrist</Label>
@@ -1120,6 +1147,7 @@
       <Description xml:lang="de"></Description>
       <Description xml:lang="en" />
     </Value>
+    <Label xml:lang="en">Blocking Period</Label>
   </MDDef>
   <MDDef id="84" type="date">
     <Label xml:lang="de">Stand Literaturverzeichnis IQB-Studien-Website</Label>
@@ -1151,7 +1179,7 @@
     </TypeSpec>
   </MDDef>
   <MDDef id="89" type="listmultiselect">
-    <Label xml:lang="de">Erhebungsdesign (Time Method)</Label>
+    <Label xml:lang="de">Erhebungsdesign</Label>
     <Description xml:lang="de">= Untersuchungsdesign; https://mdr.iqb.hu-berlin.de/#/catalog/56cc4164-6731-7d54-c97f-ad9bd24bf1b7</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1187,9 +1215,10 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
+    <Label xml:lang="en">Time Method</Label>
   </MDDef>
   <MDDef id="90" type="listmultiselect">
-    <Label xml:lang="de">Forschungsdesign (Research Design)</Label>
+    <Label xml:lang="de">Forschungsdesign</Label>
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/89724b81-2aab-d0dc-29ca-87f29b1c9e01</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1217,6 +1246,7 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
+    <Label xml:lang="en">Research Design</Label>
   </MDDef>
   <MDDef id="93" type="textmultilang">
     <Label xml:lang="de">ReadMe IZA</Label>
@@ -1256,6 +1286,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <Label xml:lang="en">Regional Data</Label>
   </MDDef>
   <MDDef id="98" type="textde">
     <Label xml:lang="de">Anmerkung zu Regionaldaten</Label>
@@ -1328,7 +1359,6 @@
   </MDDef>
   <MDDef id="110" type="listsingleselect">
     <Label xml:lang="de">Erhebungseinheit</Label>
-    <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
@@ -1427,6 +1457,7 @@
       <Label xml:lang="de">Sonstiges</Label>
       <Label xml:lang="en">Others</Label>
     </Value>
+    <Label xml:lang="en">Survey Unit</Label>
   </MDDef>
   <DefaultMDDefMetadata />
 </MDCat>
