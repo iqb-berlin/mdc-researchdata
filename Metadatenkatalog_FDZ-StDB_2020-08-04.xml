@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd" id="" version="1.0.0" versionhistory="">
-  <Label xml:lang="de">Katalog des IQB</Label>
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd" id="DOI:10.5159/IQB_MDR_FDZ_v1" version="1.0.0" versionhistory="">
+  <Label xml:lang="de">Katalog für Forschungsdaten des FDZ am IQB</Label>
+  <Description xml:lang="de">Dieser Katalog enthält die Metadaten-Definitionen sowohl für die Studiendaten als auch für die Antragstellung zur Nutzung der Daten.</Description>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <Owner xml:lang="en">IQB - Institute for Educational Quality Improvement</Owner>
   <License>MIT</License>
@@ -11,7 +12,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Bundesministerium für Bildung und Forschung (BMBF)</Label>
@@ -73,7 +74,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">deutschlandweit</Label>
@@ -151,7 +152,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14 6</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Schülerinnen und Schüler</Label>
@@ -207,35 +208,27 @@
     </Value>
     <Value id="16">
       <Label xml:lang="de">Berufsanfänger</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="17">
       <Label xml:lang="de">Hochschulabsolventen</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="18">
       <Label xml:lang="de">Jugendliche</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="19">
       <Label xml:lang="de">Schulabgänger</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="20">
       <Label xml:lang="de">wissenschaftliches Personal</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="21">
       <Label xml:lang="de">Erwachsene</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="22">
       <Label xml:lang="de">Promovierende</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="23">
       <Label xml:lang="de">Studienzugangsberechtigte</Label>
-      <Label xml:lang="en" />
     </Value>
   </MDDef>
   <MDDef id="6" type="listmultiselect">
@@ -245,23 +238,19 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Umfragedaten</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">Daten aus Kompetenz- und Leistungsmessungen</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="3">
       <Label xml:lang="de">Qualitatives Datenmaterial</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="4">
       <Label xml:lang="de">Anderweitige Datentypen</Label>
-      <Label xml:lang="en" />
     </Value>
   </MDDef>
   <MDDef id="8" type="listmultiselect">
@@ -271,7 +260,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Interview</Label>
@@ -444,8 +433,8 @@
     </TypeSpec>
     <Value id="2">
       <Label xml:lang="de">SUF: Lieferbar für Re- und Sekundäranalysen</Label>
-      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
       <Label xml:lang="en">Delivery for re- and secondary analysis</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
     </Value>
     <Value id="7">
       <Label xml:lang="de">SUF: Lieferbar nur noch für Reanalysen</Label>
@@ -453,8 +442,8 @@
     </Value>
     <Value id="6">
       <Label xml:lang="de">SUF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
-      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
       <Label xml:lang="en">Application required: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
+      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
     </Value>
     <Value id="8">
       <Label xml:lang="de">CF: Downloadbar</Label>
@@ -466,8 +455,8 @@
     </Value>
     <Value id="5">
       <Label xml:lang="de">Nicht verfügbar</Label>
-      <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
       <Label xml:lang="en">Not available</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
     </Value>
   </MDDef>
   <MDDef id="10" type="listmultiselect">
@@ -477,50 +466,36 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="2">
       <Label xml:lang="de">Vollerhebung</Label>
       <Label xml:lang="en">Complete Enumeration</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Probability Sample</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="4">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Simple Random Sample</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="5">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Systematic Random Sample</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="6">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Stratified Sample</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="7">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Proportionate Stratified Sample</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="8">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Disproportionate Stratified Sample</Label>
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="12">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Klumpenauswahl</Label>
       <Label xml:lang="en">Probability Sample: Cluster Sample</Label>
@@ -565,88 +540,87 @@
       <Label xml:lang="de">Andere</Label>
       <Label xml:lang="en">Other</Label>
     </Value>
-    <Value id="49">
-      <Label xml:lang="de">Keine Angabe</Label>
-      <Label xml:lang="en">Not Given</Label>
-    </Value>
-  </MDDef>
+  <Value id="49"><Label xml:lang="de">Keine Angabe</Label><Label xml:lang="en">Not Given</Label></Value></MDDef>
   <MDDef id="13" type="textde">
     <Label xml:lang="de">Alternativtitel</Label>
     <Description xml:lang="de">wenn vorhanden</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">13 14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="22" type="date">
     <Label xml:lang="de">Studienbeginn</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="23" type="date">
     <Label xml:lang="de">Studienende</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="24" type="textde">
     <Label xml:lang="de">Verwandte Studien</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="25" type="textde">
     <Label xml:lang="de">Bericht zur Studie</Label>
     <Description xml:lang="de">wenn vorhanden hier angeben</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="26" type="textde">
     <Label xml:lang="de">Archivierende Einrichtung</Label>
     <Description xml:lang="de">=FDZ am IQB/FDZ at IQB</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="28" type="date">
     <Label xml:lang="de">Erhebungsbeginn</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="29" type="date">
     <Label xml:lang="de">Erhebungsende</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="30" type="textde">
     <Label xml:lang="de">Verknüpfungsvariable</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="31" type="textde">
     <Label xml:lang="de">Link zur Studie</Label>
     <Description xml:lang="de">Projekt-Webseite</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="34" type="textde">
     <Label xml:lang="de">Region sonstiges</Label>
     <Description xml:lang="de">=Untersuchungsgebiet sonstiges: Freitextfeld für weitere geografische Angaben, z. B. Städte, Regionen, Landstriche, außerhalb DE</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="35" type="textmultilang">
     <Label xml:lang="de">Testpopulation</Label>
     <Description xml:lang="de">Angabe der Grundgesamtheit</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="37" type="date">
     <Label xml:lang="de">verfügbar seit</Label>
@@ -654,27 +628,27 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="38" type="textde">
     <Label xml:lang="de">Erhebungsdesign sonstiges</Label>
     <Description xml:lang="de">=Untersuchungsdesign sonstiges; Freitextfeld für weitere Designs, auch f. da I ra zu benutzen</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="40" type="textde">
     <Label xml:lang="de">Anmerkungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6 13 14</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="41" type="textde">
     <Label xml:lang="de">Rechte Metadaten</Label>
     <Description xml:lang="de">Angaben zu den Rechten an den / für die Metadaten</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="42" type="textde">
     <Label xml:lang="de">Beschreibungstyp</Label>
     <Description xml:lang="de">Typ der Studienbeschreibung; für da|ra-Export relevant</Description>
@@ -696,7 +670,7 @@
     <Value id="5">
       <Label xml:lang="de">5 Sonstiges / Others</Label>
     </Value>
-  </MDDef>
+    </MDDef>
   <MDDef id="43" type="listsingleselect">
     <Label xml:lang="de">Typ der Ressource</Label>
     <Description xml:lang="de">für da|ra-Export relevant</Description>
@@ -773,31 +747,27 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="48" type="listsingleselect">
     <Label xml:lang="de">Bewertung Inhaltlicher Scope</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
   </MDDef>
   <MDDef id="49" type="listsingleselect">
     <Label xml:lang="de">Bewertung Rechtliche Anforderungen</Label>
@@ -805,31 +775,19 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
     </Value>
   </MDDef>
   <MDDef id="50" type="listsingleselect">
@@ -838,32 +796,20 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
   </MDDef>
   <MDDef id="51" type="listsingleselect">
     <Label xml:lang="de">Bewertung Dokumentarische Anforderungen</Label>
@@ -875,19 +821,15 @@
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
-      <Label xml:lang="en" />
     </Value>
   </MDDef>
   <MDDef id="52" type="textde">
@@ -895,40 +837,37 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="53" type="date">
     <Label xml:lang="de">Sperrfrist - Datum</Label>
     <Description xml:lang="de">auch für FAMe/ML relevant: bis zu diesem Datum dürfen die Daten nicht bereitgestellt werden</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="56" type="boolean">
     <Label xml:lang="de">Sperrvermerk</Label>
     <Description xml:lang="de">bei ja Häckchen setzen</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="57" type="listsingleselect">
     <Label xml:lang="de">Beteiligung Datengeber</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>combobox</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">nicht beteiligt</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">Meldepflicht</Label>
-      <Label xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="3">
       <Label xml:lang="de">Vetorecht</Label>
-      <Label xml:lang="en" />
     </Value>
   </MDDef>
   <MDDef id="58" type="textde">
@@ -937,20 +876,20 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="59" type="textde">
     <Label xml:lang="de">Sperrvermerk - Erläuterung</Label>
     <Description xml:lang="de">für Angaben zu Sperrvermerken bei Variablen, bestimmten Fragestellungen; hier geht es um eine zeitliche Komponente; inhaltlich</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="64" type="textde">
     <Label xml:lang="de">Bemerkungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="65" type="integer">
     <Label xml:lang="de">Dokumentar: Dokumentation</Label>
     <MDDefMetadata>
@@ -998,7 +937,6 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <Min>0</Min>
       <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
@@ -1008,6 +946,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="71" type="integer">
     <Label xml:lang="de">wiMi: Eingangskontrolle</Label>
@@ -1088,13 +1029,16 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="81" type="textmultilang">
     <Label xml:lang="de">Stichprobe</Label>
     <Description xml:lang="de">der Primärerhebung; N=</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="82" type="textmultilang">
     <Label xml:lang="de">erfasste Kompetenzen</Label>
@@ -1102,6 +1046,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="83" type="boolean">
     <Label xml:lang="de">Sperrfrist</Label>
@@ -1110,36 +1057,30 @@
     </MDDefMetadata>
     <Value id="1">
       <Label xml:lang="de">ja</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
+      </Value>
     <Value id="2">
       <Label xml:lang="de">nein</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
-      <Description xml:lang="en" />
-    </Value>
-  </MDDef>
+      </Value>
+    </MDDef>
   <MDDef id="84" type="date">
     <Label xml:lang="de">Stand Literaturverzeichnis IQB-Studien-Website</Label>
     <Description xml:lang="de">Stand der Publikationsliste auf der Website</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="85" type="date">
     <Label xml:lang="de">Stand Literaturverzeichnis citavi</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="87" type="boolean">
     <Label xml:lang="de">Bildungsmonitoringstudie</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="88" type="integer">
     <Label xml:lang="de">wiMi: Dokumentation</Label>
     <MDDefMetadata>
@@ -1224,6 +1165,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="94" type="textmultilang">
     <Label xml:lang="de">ReadMe SUF</Label>
@@ -1231,6 +1175,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="95" type="textde">
     <Label xml:lang="de">Kontaktperson</Label>
@@ -1238,7 +1185,7 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="96" type="integer">
     <Label xml:lang="de">DM-Beratung</Label>
     <Description xml:lang="de">Beratung zu Datenmanagement(plänen), EVEs und dergl. (vor Datenabgabe/-übermittlung)</Description>
@@ -1256,180 +1203,60 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="98" type="textde">
     <Label xml:lang="de">Anmerkung zu Regionaldaten</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="100" type="textde">
     <Label xml:lang="de">öffentlich auf Website IQB (Dateibezeichnung aufführen)</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="101" type="textde">
     <Label xml:lang="de">Auslieferung nach Antragstellung (Dateibezeichnung aufführen)</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="102" type="textde">
     <Label xml:lang="de">Auslieferung auf Anfrage (Dateibezeichnung aufführen)</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="103" type="textde">
     <Label xml:lang="de">nicht herauszugeben/nicht öffentlich verfügbar (Dateibezeichnung aufführen)</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="104" type="boolean">
     <Label xml:lang="de">neuartiger Ländervergleich möglich</Label>
     <Description xml:lang="de">mit diesen Daten ist ein neuartiger Ländervergleich möglich</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="105" type="textde">
     <Label xml:lang="de">neuartiger Ländervergleich - Erläuterung</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
-  </MDDef>
+    </MDDef>
   <MDDef id="107" type="textde">
     <Label xml:lang="de">Dokumentation</Label>
     <Description xml:lang="de">Link zum DaQS</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
-  </MDDef>
-  <MDDef id="108" type="date">
-    <Label xml:lang="de">AIP in d. LZA d. CMS gegeben</Label>
-    <Description xml:lang="de">Archival Information Package (AIP) in die Langzeitarchivierung (LZA) des CMS gegeben</Description>
-    <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
-    </MDDefMetadata>
-  </MDDef>
-  <MDDef id="109" type="textde">
-    <Label xml:lang="de">ID des AIP</Label>
-    <Description xml:lang="de">Beschreibung</Description>
-    <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
-    </MDDefMetadata>
-  </MDDef>
-  <DefaultMDDefMetadata>
-    <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2" />
-  </DefaultMDDefMetadata>
-  <MDDef id="110" type="listsingleselect">
-    <Label xml:lang="de">Erhebungseinheit</Label>
-    <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
-    </MDDefMetadata>
-    <TypeSpec>
-      <ListControl>combobox</ListControl>
-    </TypeSpec>
-    <DefaultValue />
-    <Label xml:lang="en">Survey Unit</Label>
-    <Value id="4">
-      <Label xml:lang="de">Auszubildende</Label>
-      <Label xml:lang="en">Trainees </Label>
-    </Value>
-    <Value id="5">
-      <Label xml:lang="de">Behörden</Label>
-      <Label xml:lang="en">Authorities</Label>
-    </Value>
-    <Value id="6">
-      <Label xml:lang="de">Berufsanfänger*innen</Label>
-      <Label xml:lang="en">Career Starters</Label>
-    </Value>
-    <Value id="7">
-      <Label xml:lang="de">Betriebe</Label>
-      <Label xml:lang="en">Companies</Label>
-    </Value>
-    <Value id="8">
-      <Label xml:lang="de">Eltern</Label>
-      <Label xml:lang="en">Parents</Label>
-    </Value>
-    <Value id="9">
-      <Label xml:lang="de">Erwachsene</Label>
-      <Label xml:lang="en">Adults</Label>
-    </Value>
-    <Value id="10">
-      <Label xml:lang="de">Hochschulabsolvent*innen</Label>
-      <Label xml:lang="en">University Graduates</Label>
-    </Value>
-    <Value id="3">
-      <Label xml:lang="de">Lehrkräfte</Label>
-      <Label xml:lang="en">Teachers</Label>
-    </Value>
-    <Value id="11">
-      <Label xml:lang="de">Jugendliche</Label>
-      <Label xml:lang="en">Teenagers</Label>
-    </Value>
-    <Value id="12">
-      <Label xml:lang="de">Kindergartenkinder</Label>
-      <Label xml:lang="en">Kindergarten Children</Label>
-    </Value>
-    <Value id="2">
-      <Label xml:lang="de">pädagogisches Personal</Label>
-      <Label xml:lang="en">Educational Staff</Label>
-    </Value>
-    <Value id="13">
-      <Label xml:lang="de">Promotionsberechtigte</Label>
-      <Label xml:lang="en">Persons Qualified for Promotion</Label>
-    </Value>
-    <Value id="14">
-      <Label xml:lang="de">Promovierende</Label>
-      <Label xml:lang="en">Doctoral Students</Label>
-    </Value>
-    <Value id="15">
-      <Label xml:lang="de">Referendar*innen</Label>
-      <Label xml:lang="en">Preservice Teacher</Label>
-    </Value>
-    <Value id="1">
-      <Label xml:lang="de">Schüler*innen</Label>
-      <Label xml:lang="en">Students</Label>
-    </Value>
-    <Value id="16">
-      <Label xml:lang="de">Schulabgänger*innen</Label>
-      <Label xml:lang="en">School Leavers</Label>
-    </Value>
-    <Value id="17">
-      <Label xml:lang="de">Schulen</Label>
-      <Label xml:lang="en">Schools</Label>
-    </Value>
-    <Value id="18">
-      <Label xml:lang="de">Schulleitung</Label>
-      <Label xml:lang="en">Principals</Label>
-    </Value>
-    <Value id="19">
-      <Label xml:lang="de">Studienzugangsberechtigte</Label>
-      <Label xml:lang="en">Persons Qualified for University</Label>
-    </Value>
-    <Value id="20">
-      <Label xml:lang="de">Studierende</Label>
-      <Label xml:lang="en">College Students</Label>
-    </Value>
-    <Value id="21">
-      <Label xml:lang="de">Vorschulkinder</Label>
-      <Label xml:lang="en">Preschool Children</Label>
-    </Value>
-    <Value id="22">
-      <Label xml:lang="de">wissenschaftliches Personal</Label>
-      <Label xml:lang="en">Academic Staff</Label>
-    </Value>
-    <Value id="23">
-      <Label xml:lang="de">Sonstiges</Label>
-      <Label xml:lang="en">Others</Label>
-    </Value>
-  </MDDef>
-</MDCat>
+    </MDDef>
+<DefaultMDDefMetadata /></MDCat>
