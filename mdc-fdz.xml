@@ -386,12 +386,12 @@
       <Label xml:lang="en">Measurements and tests: Educational measurements and tests</Label>
     </Value>
     <Value id="28">
-      <Label xml:lang="de">Messungen und Tests: Leistungs- und Kompetenztest: Paper and Pencil Test</Label>
-      <Label xml:lang="en">Measurements and tests: Educational measurements and tests: Paper &amp; pencil test</Label>
+      <Label xml:lang="de">Messungen und Tests: Leistungs- und Kompetenztest - Paper and Pencil Test</Label>
+      <Label xml:lang="en">Measurements and tests: Educational measurements and tests - Paper &amp; pencil test</Label>
     </Value>
     <Value id="29">
-      <Label xml:lang="de">Messungen und Tests: Leistungs- und Kompetenztest: Computerbasierter Test</Label>
-      <Label xml:lang="en">Measurements and tests: Educational measurements and tests: Computer assisted test</Label>
+      <Label xml:lang="de">Messungen und Tests: Leistungs- und Kompetenztest - Computerbasierter Test</Label>
+      <Label xml:lang="en">Measurements and tests: Educational measurements and tests - Computer assisted test</Label>
     </Value>
     <Value id="32">
       <Label xml:lang="de">Messungen und Tests: Physische Tests</Label>
@@ -1436,9 +1436,21 @@
       <Label xml:lang="en">Others</Label>
     </Value>
   </MDDef>
-  <MDDef id="111" type="filelink">
-    <Label xml:lang="de">entsprechender Datensatzname</Label>
+  <MDDef id="111" type="linkfile">
+    <Label xml:lang="de">Datensatzname</Label>
     <Description xml:lang="de">in welchem Datensatz befindet sich das Instrument</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
+    </MDDefMetadata>
+  </MDDef>
+  <MDDef id="112" type="">
+    <Label xml:lang="de">Datensatzname 2</Label>
+    <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
+    <MDDefMetadata />
+  </MDDef>
+  <MDDef id="113" type="">
+    <Label xml:lang="de">Datensatzname 3</Label>
+    <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
