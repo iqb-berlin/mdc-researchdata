@@ -1443,12 +1443,14 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="112" type="">
+  <MDDef id="112" type="linkfile">
     <Label xml:lang="de">Datensatzname 2</Label>
     <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
-    <MDDefMetadata />
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
+    </MDDefMetadata>
   </MDDef>
-  <MDDef id="113" type="">
+  <MDDef id="113" type="linkfile">
     <Label xml:lang="de">Datensatzname 3</Label>
     <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
