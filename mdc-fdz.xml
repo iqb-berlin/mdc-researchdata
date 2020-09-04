@@ -402,8 +402,12 @@
       <Label xml:lang="en">Measurements and tests: Psychological measurements and tests</Label>
     </Value>
     <Value id="31">
-      <Label xml:lang="de">Messungen und Tests: Psychologische Tests: Paper and Pencil Test</Label>
-      <Label xml:lang="en">Measurements and tests: Physical measurements and tests: Paper &amp; pencil test</Label>
+      <Label xml:lang="de">Messungen und Tests: Psychologische Tests - Paper and Pencil Test</Label>
+      <Label xml:lang="en">Measurements and tests: Physical measurements and tests - Paper &amp; pencil test</Label>
+    </Value>
+    <Value id="33">
+      <Label xml:lang="de">Messungen und Tests: Psychologische Tests - Computerbasierter Test</Label>
+      <Label xml:lang="en">Measurements and tests: Psychological measurements and tests - Computer assisted test</Label>
     </Value>
     <Value id="12">
       <Label xml:lang="de">Inhaltscodierung</Label>
@@ -432,10 +436,6 @@
     <Value id="41">
       <Label xml:lang="de">Simulation</Label>
       <Label xml:lang="en">Simulation</Label>
-    </Value>
-    <Value id="33">
-      <Label xml:lang="de">Messungen und Tests: Psychologische Tests: Computerbasierter Test</Label>
-      <Label xml:lang="en">Measurements and tests: Psychological measurements and tests: Computer assisted test</Label>
     </Value>
     <Value id="24">
       <Label xml:lang="de">Sonstiges</Label>
