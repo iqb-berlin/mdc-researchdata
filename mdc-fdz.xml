@@ -65,6 +65,14 @@
       <Label xml:lang="de">Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes NRW (ehemals: Ministerium für Familie, Kinder, Jugend, Kultur und Sport)</Label>
       <Label xml:lang="en">Ministry for Children, Family, Refugees and Integration of the Federal State of NRW</Label>
     </Value>
+    <Value id="14">
+      <Label xml:lang="de">Leibniz-Gemeinschaft</Label>
+      <Label xml:lang="en">Leibniz Association</Label>
+    </Value>
+    <Value id="15">
+      <Label xml:lang="de">Behörde für Schule und Berufsbildung der Freien und Hansestadt Hamburg (BSB)</Label>
+      <Label xml:lang="en">Authority for Schools and Vocational Training of the Free and Hanseatic City of Hamburg</Label>
+    </Value>
   </MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
@@ -1259,7 +1267,7 @@
     </TypeSpec>
   </MDDef>
   <MDDef id="97" type="boolean">
-    <Label xml:lang="de">Regionaldaten</Label>
+    <Label xml:lang="de">Regionalkennziffern im Datensatz enthalten</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
