@@ -1444,35 +1444,35 @@
       <Label xml:lang="en">Others</Label>
     </Value>
   </MDDef>
-  <MDDef id="111" type="linkfile">
+  <MDDef id="111" type="filelink">
     <Label xml:lang="de">Datensatzname</Label>
     <Description xml:lang="de">in welchem Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="112" type="linkfile">
+  <MDDef id="112" type="filelink">
     <Label xml:lang="de">Datensatzname 2</Label>
     <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="113" type="linkfile">
+  <MDDef id="113" type="filelink">
     <Label xml:lang="de">Datensatzname 3</Label>
     <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="114" type="linkfile">
+  <MDDef id="114" type="filelink">
     <Label xml:lang="de">Datensatzname 4</Label>
     <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-  <MDDef id="115" type="linkfile">
+  <MDDef id="115" type="filelink">
     <Label xml:lang="de">Datensatzname 5</Label>
     <Description xml:lang="de">in welchem weiteren Datensatz befindet sich das Instrument</Description>
     <MDDefMetadata>
