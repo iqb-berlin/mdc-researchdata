@@ -663,6 +663,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="37" type="date">
     <Label xml:lang="de">verfügbar seit</Label>
@@ -1024,6 +1027,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="71" type="integer">
     <Label xml:lang="de">wiMi: Eingangskontrolle</Label>
@@ -1111,6 +1117,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="82" type="textmultilang">
     <Label xml:lang="de">erfasste Kompetenzen</Label>
@@ -1118,6 +1127,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="83" type="boolean">
     <Label xml:lang="de">Sperrfrist</Label>
@@ -1240,6 +1252,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="94" type="textmultilang">
     <Label xml:lang="de">ReadMe SUF</Label>
@@ -1247,6 +1262,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+    </TypeSpec>
   </MDDef>
   <MDDef id="95" type="textde">
     <Label xml:lang="de">Kontaktperson</Label>
