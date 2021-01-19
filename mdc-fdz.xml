@@ -81,7 +81,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">deutschlandweit</Label>
@@ -159,7 +159,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="9">
       <Label xml:lang="de">Auszubildende</Label>
@@ -287,7 +287,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Interview</Label>
@@ -493,7 +493,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="2">
       <Label xml:lang="de">Vollerhebung</Label>
@@ -752,7 +752,7 @@
     </Value>
     <Value id="7">
       <Label xml:lang="de">Interaktive Ressource</Label>
-      <Label xml:lang="en"> Interactive Resource</Label>
+      <Label xml:lang="en">Interactive Resource</Label>
     </Value>
     <Value id="8">
       <Label xml:lang="de">Event</Label>
@@ -800,7 +800,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
@@ -825,7 +825,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
@@ -858,7 +858,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
@@ -891,7 +891,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">A</Label>
@@ -1188,7 +1188,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Längsschnitt</Label>
@@ -1226,7 +1226,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Experimentelles Design</Label>
@@ -1372,7 +1372,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Auszubildende</Label>
