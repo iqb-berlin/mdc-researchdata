@@ -1285,6 +1285,8 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
     <TypeSpec>
+      <Min>1</Min>
+      <Max>3</Max>
       <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
