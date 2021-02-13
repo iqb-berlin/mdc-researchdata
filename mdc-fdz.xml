@@ -2,9 +2,9 @@
 <MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
        id="" version="1.0.0" versionhistory="">
-  <Label xml:lang="de">Katalog des IQB für Foschungsdaten</Label>
+  <Label xml:lang="de">Katalog des IQB für Forschungsdaten</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
-  <License>CC SA-BYMIT</License>
+  <License>CC BY-SA 4.0</License>
   <MDDef id="2" type="listmultiselect">
     <Label xml:lang="de">Auftraggeber / Mittelgeber</Label>
     <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
