@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/iqb-mdc/core/master/mdc.xsd" id="" version="1.0.0" versionhistory="">
-  <Label xml:lang="de">Katalog des IQB</Label>
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
+       id="" version="1.0.0" versionhistory="">
+  <Label xml:lang="de">Katalog des IQB für Foschungsdaten</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
-  <Owner xml:lang="en">IQB - Institute for Educational Quality Improvement</Owner>
-  <License>MIT</License>
+  <License>CC SA-BYMIT</License>
   <MDDef id="2" type="listmultiselect">
     <Label xml:lang="de">Auftraggeber / Mittelgeber</Label>
     <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
@@ -460,8 +461,8 @@
     </TypeSpec>
     <Value id="2">
       <Label xml:lang="de">SUF: Lieferbar für Re- und Sekundäranalysen</Label>
-      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
       <Label xml:lang="en">Delivery for re- and secondary analysis</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
     </Value>
     <Value id="7">
       <Label xml:lang="de">SUF: Lieferbar nur noch für Reanalysen</Label>
@@ -469,8 +470,8 @@
     </Value>
     <Value id="6">
       <Label xml:lang="de">SUF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
-      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
       <Label xml:lang="en">Application required: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
+      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
     </Value>
     <Value id="8">
       <Label xml:lang="de">CF: Downloadbar</Label>
@@ -482,8 +483,8 @@
     </Value>
     <Value id="5">
       <Label xml:lang="de">Nicht verfügbar</Label>
-      <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
       <Label xml:lang="en">Not available</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 4</Description>
     </Value>
   </MDDef>
   <MDDef id="10" type="listmultiselect">
@@ -498,43 +499,43 @@
     <Value id="2">
       <Label xml:lang="de">Vollerhebung</Label>
       <Label xml:lang="en">Complete Enumeration</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Probability Sample</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Simple Random Sample</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="5">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Systematic Random Sample</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="6">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Stratified Sample</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="7">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Proportionate Stratified Sample</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="8">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Disproportionate Stratified Sample</Label>
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="12">
@@ -830,25 +831,25 @@
     <Value id="1">
       <Label xml:lang="de">A</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
   </MDDef>
@@ -863,25 +864,25 @@
     <Value id="1">
       <Label xml:lang="de">A</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
   </MDDef>
@@ -1142,13 +1143,13 @@
     <Value id="1">
       <Label xml:lang="de">ja</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">nein</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"></Description>
+      <Description xml:lang="de"/>
       <Description xml:lang="en" />
     </Value>
   </MDDef>
@@ -1502,5 +1503,4 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-  <DefaultMDDefMetadata />
 </MDCat>
