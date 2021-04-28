@@ -1173,6 +1173,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Languages>de en</Languages>
+           <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
   <MDDef id="82" type="textmultilang">
