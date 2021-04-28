@@ -1322,6 +1322,9 @@
     <Label xml:lang="de">Auslieferung auf Anfrage (Dateibezeichnung aufführen)</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
+           <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
   </MDDef>
