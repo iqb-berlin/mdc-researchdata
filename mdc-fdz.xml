@@ -593,6 +593,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">13 14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="22" type="date">
     <Label xml:lang="de">Studienbeginn</Label>
@@ -611,6 +614,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="25" type="textde">
     <Label xml:lang="de">Bericht zur Studie</Label>
@@ -618,6 +624,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="26" type="textde">
     <Label xml:lang="de">Archivierende Einrichtung</Label>
@@ -625,6 +634,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="28" type="date">
     <Label xml:lang="de">Erhebungsbeginn</Label>
@@ -643,6 +655,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="31" type="textde">
     <Label xml:lang="de">Link zur Studie</Label>
@@ -650,6 +665,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="34" type="textde">
     <Label xml:lang="de">Region sonstiges</Label>
@@ -657,6 +675,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="35" type="textmultilang">
     <Label xml:lang="de">Testpopulation</Label>
@@ -682,12 +703,18 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="40" type="textde">
     <Label xml:lang="de">Anmerkungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6 13 14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="41" type="textde">
     <Label xml:lang="de">Rechte Metadaten</Label>
@@ -695,6 +722,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="42" type="textde">
     <Label xml:lang="de">Beschreibungstyp</Label>
@@ -702,6 +732,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
     <Value id="1">
       <Label xml:lang="de"> 1 Zusammenfassung / Abstract</Label>
     </Value>
@@ -794,6 +827,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">6</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="48" type="listsingleselect">
     <Label xml:lang="de">Bewertung Inhaltlicher Scope</Label>
@@ -916,6 +952,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="53" type="date">
     <Label xml:lang="de">Sperrfrist - Datum</Label>
@@ -958,6 +997,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="59" type="textde">
     <Label xml:lang="de">Sperrvermerk/e - Erläuterung</Label>
@@ -965,12 +1007,18 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="64" type="textde">
     <Label xml:lang="de">Bemerkungen</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="65" type="integer">
     <Label xml:lang="de">Dokumentar: Dokumentation</Label>
@@ -1113,6 +1161,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="81" type="textmultilang">
     <Label xml:lang="de">Stichprobe</Label>
@@ -1278,6 +1329,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="96" type="integer">
     <Label xml:lang="de">DM-Beratung</Label>
@@ -1303,6 +1357,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="100" type="textde">
     <Label xml:lang="de">öffentlich auf Website IQB (Dateibezeichnung aufführen)</Label>
@@ -1310,6 +1367,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="101" type="textde">
     <Label xml:lang="de">Auslieferung nach Antragstellung (Dateibezeichnung aufführen)</Label>
@@ -1317,6 +1377,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="102" type="textde">
     <Label xml:lang="de">Auslieferung auf Anfrage (Dateibezeichnung aufführen)</Label>
@@ -1334,6 +1397,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="104" type="boolean">
     <Label xml:lang="de">neuartiger Ländervergleich möglich</Label>
@@ -1347,6 +1413,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="107" type="textde">
     <Label xml:lang="de">Dokumentation</Label>
@@ -1354,6 +1423,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="108" type="date">
     <Label xml:lang="de">AIP in d. LZA d. CMS gegeben</Label>
@@ -1368,6 +1440,9 @@
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
   </MDDef>
   <MDDef id="110" type="listsingleselect">
     <Label xml:lang="de">Erhebungseinheit</Label>
