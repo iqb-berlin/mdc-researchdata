@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
-       id="" version="1.0.0" versionhistory="">
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd" id="" version="1.0.0" versionhistory="">
   <Label xml:lang="de">Katalog des IQB für Forschungsdaten</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <License>CC BY-SA 4.0</License>
@@ -499,43 +497,43 @@
     <Value id="2">
       <Label xml:lang="de">Vollerhebung</Label>
       <Label xml:lang="en">Complete Enumeration</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl</Label>
       <Label xml:lang="en">Probability Sample</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Simple Random Sample</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="5">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Systematic Random Sample</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="6">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Stratified Sample</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="7">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Proportionate Stratified Sample</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="8">
       <Label xml:lang="de">Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl</Label>
       <Label xml:lang="en">Probability Sample: Disproportionate Stratified Sample</Label>
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="12">
@@ -867,25 +865,25 @@
     <Value id="1">
       <Label xml:lang="de">A</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
   </MDDef>
@@ -900,25 +898,25 @@
     <Value id="1">
       <Label xml:lang="de">A</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">B</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
       <Label xml:lang="de">C</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
       <Label xml:lang="de">D</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
   </MDDef>
@@ -991,7 +989,7 @@
       <Label xml:lang="en" />
     </Value>
   </MDDef>
-  <MDDef id="58" type="textde">
+  <MDDef id="58" type="textmultilang">
     <Label xml:lang="de">Datenrestriktion</Label>
     <Description xml:lang="de">auf gesamten Datensatz bezogen; keine zeitliche Komponente; Bsp.: Daten dürfen nie als Gesamtpaket ausgegeben werden</Description>
     <MDDefMetadata>
@@ -999,7 +997,7 @@
     </MDDefMetadata>
          <TypeSpec>
       <MultiLineText>true</MultiLineText>
-    </TypeSpec>
+    <Languages>de en</Languages></TypeSpec>
   </MDDef>
   <MDDef id="59" type="textde">
     <Label xml:lang="de">Sperrvermerk/e - Erläuterung</Label>
@@ -1195,13 +1193,13 @@
     <Value id="1">
       <Label xml:lang="de">ja</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
       <Label xml:lang="de">nein</Label>
       <Label xml:lang="en" />
-      <Description xml:lang="de"/>
+      <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
   </MDDef>
@@ -1582,4 +1580,4 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-</MDCat>
+<DefaultMDDefMetadata /></MDCat>
