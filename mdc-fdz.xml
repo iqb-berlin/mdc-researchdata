@@ -72,7 +72,7 @@
       <Label xml:lang="de">Behörde für Schule und Berufsbildung der Freien und Hansestadt Hamburg (BSB)</Label>
       <Label xml:lang="en">Authority for Schools and Vocational Training of the Free and Hanseatic City of Hamburg</Label>
     </Value>
-  </MDDef>
+  <Value id="16"><Label xml:lang="de">Freie Hansestadt Bremen</Label><Label xml:lang="en">Free Hanseatic City of Bremen</Label></Value><Value id="17"><Label xml:lang="de">Jacobs Foundation</Label><Label xml:lang="en">Jacobs Foundation</Label></Value></MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
     <Description xml:lang="de">=Untersuchungsgebiet</Description>
