@@ -53,8 +53,8 @@
       <Label xml:lang="en">The European Social Fund (ESF)</Label>
     </Value>
     <Value id="11">
-      <Label xml:lang="de">Europäische Union</Label>
-      <Label xml:lang="en">European Union</Label>
+      <Label xml:lang="de">Europäische Union (EU)</Label>
+      <Label xml:lang="en">European Union (EU)</Label>
     </Value>
     <Value id="12">
       <Label xml:lang="de">Träger Arbeit-Schule-Integrations-Gesellschaft e. V</Label>
@@ -1250,7 +1250,7 @@
       <Label xml:lang="en">Longitudinal: Cohort/Event-based</Label>
     </Value>
     <Value id="3">
-      <Label xml:lang="de">Längsschnitt Trend/Wiederholter Querschnitt</Label>
+      <Label xml:lang="de">Längsschnitt: Trend/Wiederholter Querschnitt</Label>
       <Label xml:lang="en">Longitudinal: Trend/Repeated cross-section</Label>
     </Value>
     <Value id="4">
