@@ -1173,7 +1173,7 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
     <TypeSpec>
-      <ListControl>list</ListControl>
+      <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Längsschnitt</Label>
