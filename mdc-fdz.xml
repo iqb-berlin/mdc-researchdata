@@ -164,10 +164,6 @@
       <Label xml:lang="de">Auszubildende</Label>
       <Label xml:lang="en">Trainees</Label>
     </Value>
-    <Value id="26">
-      <Label xml:lang="de">Babys</Label>
-      <Label xml:lang="en">Babys</Label>
-    </Value>
      <Value id="5">
       <Label xml:lang="de">Behörden</Label>
       <Label xml:lang="en">Authorities</Label>
@@ -1459,6 +1455,10 @@
     <Value id="1">
       <Label xml:lang="de">Auszubildende</Label>
       <Label xml:lang="en">Trainees</Label>
+    </Value>
+     <Value id="24">
+      <Label xml:lang="de">Babys</Label>
+      <Label xml:lang="en">Babys</Label>
     </Value>
     <Value id="2">
       <Label xml:lang="de">Behörden</Label>
