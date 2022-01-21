@@ -164,7 +164,11 @@
       <Label xml:lang="de">Auszubildende</Label>
       <Label xml:lang="en">Trainees</Label>
     </Value>
-    <Value id="5">
+    <Value id="26">
+      <Label xml:lang="de">Babys</Label>
+      <Label xml:lang="en">Babys</Label>
+    </Value>
+     <Value id="5">
       <Label xml:lang="de">Behörden</Label>
       <Label xml:lang="en">Authorities</Label>
     </Value>
