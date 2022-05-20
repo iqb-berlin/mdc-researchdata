@@ -1461,13 +1461,13 @@
     <TypeSpec>
       <ListControl>expandable</ListControl>
     </TypeSpec>
-    <Value id="1">
-      <Label xml:lang="de">Auszubildende</Label>
-      <Label xml:lang="en">Trainees</Label>
-    </Value>
     <Value id="25">
       <Label xml:lang="de">Ausbilder</Label>
       <Label xml:lang="en">Trainers</Label>
+    </Value>
+    <Value id="1">
+      <Label xml:lang="de">Auszubildende</Label>
+      <Label xml:lang="en">Trainees</Label>
     </Value>
      <Value id="24">
       <Label xml:lang="de">Babys</Label>
