@@ -862,10 +862,7 @@
       <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
     </Value>
-  <Description xml:lang="de">1 - D
-2 - C
-3 - B
-4 - A</Description></MDDef>
+  </MDDef>
   <MDDef id="49" type="listsingleselect">
     <Label xml:lang="de">Bewertung Rechtliche Anforderungen</Label>
     <MDDefMetadata>
@@ -898,10 +895,7 @@
     </Value>
     
     
-  <Description xml:lang="de">1 - D
-2 - C
-3 - B
-4 - A</Description></MDDef>
+  </MDDef>
   <MDDef id="50" type="listsingleselect">
     <Label xml:lang="de">Bewertung Technische Anforderungen</Label>
     <MDDefMetadata>
@@ -934,10 +928,7 @@
     
     
     
-  <Description xml:lang="de">1 - D
-2 - C
-3 - B
-4 - A</Description></MDDef>
+  </MDDef>
   <MDDef id="51" type="listsingleselect">
     <Label xml:lang="de">Bewertung Dokumentarische Anforderungen</Label>
     <MDDefMetadata>
@@ -962,10 +953,7 @@
       <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
     </Value>
-  <Description xml:lang="de">1 - D
-2 - C
-3 - B
-4 - A</Description></MDDef>
+  </MDDef>
   <MDDef id="52" type="textde">
     <Label xml:lang="de">Bewertung gesamt</Label>
     <MDDefMetadata>
