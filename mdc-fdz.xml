@@ -846,20 +846,20 @@
     <TypeSpec>
       <ListControl>float</ListControl>
     </TypeSpec>
-    <Value id="1">
-      <Label xml:lang="de">4 Punkte - A</Label>
-      <Label xml:lang="en" />
-    </Value>
-    <Value id="2">
-      <Label xml:lang="de">3 Punkte - B</Label>
-      <Label xml:lang="en" />
-    </Value>
-    <Value id="3">
-      <Label xml:lang="de">2 Punkte - C</Label>
-      <Label xml:lang="en" />
-    </Value>
+    
+    
+    
     <Value id="4">
       <Label xml:lang="de">1 Punkt - D</Label>
+      <Label xml:lang="en" />
+    </Value><Value id="3">
+      <Label xml:lang="de">2 Punkte - C</Label>
+      <Label xml:lang="en" />
+    </Value><Value id="2">
+      <Label xml:lang="de">3 Punkte - B</Label>
+      <Label xml:lang="en" />
+    </Value><Value id="1">
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
     </Value>
   <Description xml:lang="de">1 - D
@@ -874,8 +874,13 @@
     <TypeSpec>
       <ListControl>float</ListControl>
     </TypeSpec>
-    <Value id="1">
-      <Label xml:lang="de">4 Punkte - A</Label>
+    <Value id="4">
+      <Label xml:lang="de">1 Punkt - D</Label>
+      <Label xml:lang="en" />
+      <Description xml:lang="de" />
+      <Description xml:lang="en" />
+    </Value><Value id="3">
+      <Label xml:lang="de">2 Punkte - C</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
@@ -885,19 +890,14 @@
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
-    </Value>
-    <Value id="3">
-      <Label xml:lang="de">2 Punkte - C</Label>
+    </Value><Value id="1">
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
-    <Value id="4">
-      <Label xml:lang="de">1 Punkt - D</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de" />
-      <Description xml:lang="en" />
-    </Value>
+    
+    
   <Description xml:lang="de">1 - D
 2 - C
 3 - B
@@ -910,30 +910,30 @@
     <TypeSpec>
       <ListControl>float</ListControl>
     </TypeSpec>
-    <Value id="1">
-      <Label xml:lang="de">4 Punkte - A</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de" />
-      <Description xml:lang="en" />
-    </Value>
-    <Value id="2">
-      <Label xml:lang="de">3 Punkte - B</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de" />
-      <Description xml:lang="en" />
-    </Value>
-    <Value id="3">
-      <Label xml:lang="de">2 Punkte - C</Label>
-      <Label xml:lang="en" />
-      <Description xml:lang="de" />
-      <Description xml:lang="en" />
-    </Value>
     <Value id="4">
       <Label xml:lang="de">1 Punkt - D</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
+    </Value><Value id="3">
+      <Label xml:lang="de">2 Punkte - C</Label>
+      <Label xml:lang="en" />
+      <Description xml:lang="de" />
+      <Description xml:lang="en" />
+    </Value><Value id="2">
+      <Label xml:lang="de">3 Punkte - B</Label>
+      <Label xml:lang="en" />
+      <Description xml:lang="de" />
+      <Description xml:lang="en" />
+    </Value><Value id="1">
+      <Label xml:lang="de">4 Punkte - A</Label>
+      <Label xml:lang="en" />
+      <Description xml:lang="de" />
+      <Description xml:lang="en" />
     </Value>
+    
+    
+    
   <Description xml:lang="de">1 - D
 2 - C
 3 - B
@@ -946,20 +946,20 @@
     <TypeSpec>
       <ListControl>float</ListControl>
     </TypeSpec>
-    <Value id="1">
-      <Label xml:lang="de">4 Punkte - A</Label>
-      <Label xml:lang="en" />
-    </Value>
-    <Value id="2">
-      <Label xml:lang="de">3 Punkte - B</Label>
-      <Label xml:lang="en" />
-    </Value>
-    <Value id="3">
-      <Label xml:lang="de">2 Punkte - C</Label>
-      <Label xml:lang="en" />
-    </Value>
+    
+    
+    
     <Value id="4">
       <Label xml:lang="de">1 Punkt - D</Label>
+      <Label xml:lang="en" />
+    </Value><Value id="3">
+      <Label xml:lang="de">2 Punkte - C</Label>
+      <Label xml:lang="en" />
+    </Value><Value id="2">
+      <Label xml:lang="de">3 Punkte - B</Label>
+      <Label xml:lang="en" />
+    </Value><Value id="1">
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
     </Value>
   <Description xml:lang="de">1 - D
