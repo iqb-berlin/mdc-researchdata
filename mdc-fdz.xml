@@ -847,19 +847,19 @@
       <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
-      <Label xml:lang="de">A=4</Label>
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
     </Value>
     <Value id="2">
-      <Label xml:lang="de">B=3</Label>
+      <Label xml:lang="de">3 Punkte - B</Label>
       <Label xml:lang="en" />
     </Value>
     <Value id="3">
-      <Label xml:lang="de">C=2</Label>
+      <Label xml:lang="de">2 Punkte - C</Label>
       <Label xml:lang="en" />
     </Value>
     <Value id="4">
-      <Label xml:lang="de">D=1</Label>
+      <Label xml:lang="de">1 Punkt - D</Label>
       <Label xml:lang="en" />
     </Value>
   <Description xml:lang="de">1 - D
@@ -875,25 +875,25 @@
       <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
-      <Label xml:lang="de">A=4</Label>
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
-      <Label xml:lang="de">B=3</Label>
+      <Label xml:lang="de">3 Punkte - B</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
-      <Label xml:lang="de">C=2</Label>
+      <Label xml:lang="de">2 Punkte - C</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
-      <Label xml:lang="de">D=1</Label>
+      <Label xml:lang="de">1 Punkt - D</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
@@ -911,25 +911,25 @@
       <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
-      <Label xml:lang="de">A=4</Label>
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="2">
-      <Label xml:lang="de">B=3</Label>
+      <Label xml:lang="de">3 Punkte - B</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="3">
-      <Label xml:lang="de">C=2</Label>
+      <Label xml:lang="de">2 Punkte - C</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
     </Value>
     <Value id="4">
-      <Label xml:lang="de">D=1</Label>
+      <Label xml:lang="de">1 Punkt - D</Label>
       <Label xml:lang="en" />
       <Description xml:lang="de" />
       <Description xml:lang="en" />
@@ -947,19 +947,19 @@
       <ListControl>float</ListControl>
     </TypeSpec>
     <Value id="1">
-      <Label xml:lang="de">A=4</Label>
+      <Label xml:lang="de">4 Punkte - A</Label>
       <Label xml:lang="en" />
     </Value>
     <Value id="2">
-      <Label xml:lang="de">B=3</Label>
+      <Label xml:lang="de">3 Punkte - B</Label>
       <Label xml:lang="en" />
     </Value>
     <Value id="3">
-      <Label xml:lang="de">C=2</Label>
+      <Label xml:lang="de">2 Punkte - C</Label>
       <Label xml:lang="en" />
     </Value>
     <Value id="4">
-      <Label xml:lang="de">D=1</Label>
+      <Label xml:lang="de">1 Punkt - D</Label>
       <Label xml:lang="en" />
     </Value>
   <Description xml:lang="de">1 - D
@@ -1609,66 +1609,14 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
     </MDDefMetadata>
   </MDDef>
-<DefaultMDDefMetadata /><MDDef id="116" type="integer"><Label xml:lang="de">Bewertung des Projektrahmens: Anzahl der beteiligten Wissenschaftsdisziplinen</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>4</Max><Seconds>False</Seconds></TypeSpec><DefaultValue /><Description xml:lang="de">Fachrichtungen der beteiligten Forscher:innen und ihrer Institute berücksichtigen
+<DefaultMDDefMetadata /><MDDef id="116" type="listsingleselect"><Label xml:lang="de">Bewertung des Projektrahmens: Anzahl der beteiligten Wissenschaftsdisziplinen</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>4</Max><Seconds>False</Seconds><ListControl>float</ListControl></TypeSpec><DefaultValue /><Description xml:lang="de">Fachrichtungen der beteiligten Forscher:innen und ihrer Institute berücksichtigen
  → unterschiedliche Bezeichnung = unterschiedliche Disziplin
- → bspw. Wirtschaftswissenschaften vs. Erziehungswissenschaften = unterschiedliche Fachrichtungen
-
-1 - eine Disziplin am gleichen Institut
-2 - mehrere Disziplinen am gleichen Institut
-3 - eine Fachrichtung aber ggf. mehrere Disziplinen an mehreren Instituten
-4 - mehrere Fachrichtungen an mehreren Instituten</Description><Value id="1"><Label xml:lang="de">Anzahl der beteiligten Wissenschaftsdisziplinen</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="117" type="integer"><Label xml:lang="de">Bewertung des Projektrahmens: Anzahl der beteiligten Forschenden</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>4</Max></TypeSpec><DefaultValue /><Description xml:lang="de">alle Personen zählen; primäre Quelle: DMM2; falls Angabe dort unplausibel erscheint, weiter recherchieren → DMM &gt; Doku &gt; Website &gt; Zitation
-
-1 - &lt; 4
-2 - 4 - 6
-3 - 7 - 10
-4 - &gt; 10</Description></MDDef><MDDef id="118" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: Anzahl von Variablen</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>5</Max></TypeSpec><DefaultValue /><Description xml:lang="de">Summe aus allen Datensätzen
-
-1 - &lt; 100
-2 - 100 - 500
-3 - 501 - 1000
-4 - 1001 - 5000
-5 - &gt; 5000
-</Description></MDDef><MDDef id="119" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: Anzahl von Variablen-Bereichen</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>5</Max></TypeSpec><DefaultValue /><Description xml:lang="de">Konstruktbereiche (Konstruktbaum Ebene 2) also "Soziodemografischer Hintergrund" und "Unterrichtsgestaltung/Unterrichtspraxis
-
-1 - 1
-2 - 2 - 3
-3 - 4 - 5
-4 - 6 - 7
-5 - &gt; 7
-</Description></MDDef><MDDef id="120" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: Größe der Stichprobe</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>5</Max></TypeSpec><DefaultValue /><Description xml:lang="de">auf unterste Ebene beziehen (meist Schüler:innen/Kinder)
-
-0 - &lt; 100
-1 - 100 - 500
-2 - 500 - 1.000
-3 - 1.000 - 5.000
-4 - 5.000 - 10.000 
-5 - &gt; 10.000</Description></MDDef><MDDef id="121" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: Repräsentativität der Stichprobe</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>3</Max></TypeSpec><DefaultValue /></MDDef><MDDef id="122" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: Anzahl der Informationsquellen (Schülerbefragung, Beobachtung, Lehrereinschätzungen, Elternfragebögen, Einschätzungen von Peers, Bio-Daten)</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>5</Max></TypeSpec><DefaultValue /><Description xml:lang="de">1 - 1 Quelle
-2 - 2 Quellen
-3 - 3 Quellen
-4 - 4 Quellen
-5 - 5 Quellen und mehr</Description></MDDef><MDDef id="123" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: Time Design</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>3</Max></TypeSpec><DefaultValue /><Description xml:lang="de">0 - reiner Querschnitt
-1 - Trend/Wiederholter Querschnitt
-2 - experimentelles Design inkl. Prä- und Posttest
-3 - ""echter"" Längsschnitt (&gt; 2 Erhebungszeitpunkte oder &gt;= 1 Jahr zwischen 1. und 2. EZP)</Description></MDDef><MDDef id="124" type="integer"><Label xml:lang="de">Bewertung des Datensatzes: geographische Verteilung der Erhebung</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>4</Max></TypeSpec><DefaultValue /><Description xml:lang="de">1 - ein BL
-2 - mehrere BL
-3 - gesamtdeutsch
-4 - international</Description></MDDef><MDDef id="125" type="integer"><Label xml:lang="de">Bewertung der Dokumentation: Liegen Informationen zum Testinstrument vor?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>4</Max></TypeSpec><DefaultValue /><Description xml:lang="de">"0 - keine Informationen zum Instrument
-1 - nur eigenentwickelte Instrumente, die nur mit psychometrischen Kennwerten dokumentiert sind
-2 - mindestens ein etabliertes/normiertes aber proprietäres Instrument
-3 - mindestens ein etabliertes/normiertes und frei verfügbares Instrument
-4 - alle Instrumente sind etabliert/normiert und frei verfügbar"
-</Description></MDDef><MDDef id="126" type="integer"><Label xml:lang="de">Bewertung der Dokumentation: Wieviele Publikationen sind bereits aus dem Datensatz entstanden?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>5</Max></TypeSpec><DefaultValue /><Description xml:lang="de">siehe Citavi
-
-0 - 0
-1 - 1 - 5
-2 - 5 - 10
-3 - 10 - 20
-4 - 20 - 50
-5 - &gt; 50</Description></MDDef><MDDef id="127" type="integer"><Label xml:lang="de">Bewertung des Bezugs zu anderen Daten: Sind die Daten für Vergleiche mit bereits vorhandenen Daten geeignet?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">z. B. gleiche Population, gleiche Testinstrumente, gleiches Treatment, o. ä.
+ → bspw. Wirtschaftswissenschaften vs. Erziehungswissenschaften = unterschiedliche Fachrichtungen</Description><Value id="1"><Label xml:lang="de">1 Punkt - eine Disziplin am gleichen Institut</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">2 Punkte - mehrere Disziplinen am gleichen Institut</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">3 Punkte - eine Fachrichtung, aber ggf. mehrere Disziplinen an mehreren Instituten</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">4 Punkte - mehrere Fachrichtungen an mehreren Instituten</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="117" type="listsingleselect"><Label xml:lang="de">Bewertung des Projektrahmens: Anzahl der beteiligten Forschenden</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>4</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Description xml:lang="de">alle Personen zählen; primäre Quelle: DMM2; falls Angabe dort unplausibel erscheint, weiter recherchieren → DMM &gt; Doku &gt; Website &gt; Zitation</Description><Value id="1"><Label xml:lang="de">1 Punkt - &lt; 4</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">2 Punkte - 4 bis 6</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">3 Punkte - 7 bis 10</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">4 Punkte - &gt; 10</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="118" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: Anzahl von Variablen</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>5</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Description xml:lang="de">Summe aus allen Datensätzen</Description><Value id="1"><Label xml:lang="de">1 Punkt - &lt; 100</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">2 Punkte - 100 bis 500</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">3 Punkte - 501 bis 1000</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">4 Punkte - 1001 bis 5000</Label><Label xml:lang="en" /></Value><Value id="5"><Label xml:lang="de">5 Punkte - &gt; 5000</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="119" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: Anzahl von Variablen-Bereichen</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>5</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Description xml:lang="de">Konstruktbereiche (Konstruktbaum Ebene 2) also "Soziodemografischer Hintergrund" und "Unterrichtsgestaltung/Unterrichtspraxis</Description><Value id="1"><Label xml:lang="de">1 Punkt - 1</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">2 Punkte - 2 bis 3</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">3 Punkte - 4 bis 5</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">4 Punkte - 6 bis 7</Label><Label xml:lang="en" /></Value><Value id="5"><Label xml:lang="de">5 Punkte - &gt; 7</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="120" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: Größe der Stichprobe</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>5</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Description xml:lang="de">auf unterste Ebene beziehen (meist Schüler:innen/Kinder)</Description><Value id="1"><Label xml:lang="de">0 Punkte - &lt; 100</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">1 Punkt - 100 bis 500</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">2 Punkte - 500 bis 1.000</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">3 Punkte - 1.000 bis 5.000</Label><Label xml:lang="en" /></Value><Value id="5"><Label xml:lang="de">4 Punkte - 5.000 bis 10.000 </Label><Label xml:lang="en" /></Value><Value id="6"><Label xml:lang="de">5 Punkte - &gt; 10.000</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="121" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: Repräsentativität der Stichprobe</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>3</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Value id="1"><Label xml:lang="de">0 Punkte - keine Zufallsauswahl</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">1 Punkt - Zufallsauswahl, eingeschr. Population</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">2 Punkte - Repräsentative Stichprobe, über Zufallsauswahl oder Gewichte gesichert</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">3 Punkte - Vollerhebung</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="122" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: Anzahl der Informationsquellen (Schülerbefragung, Beobachtung, Lehrereinschätzungen, Elternfragebögen, Einschätzungen von Peers, Bio-Daten)</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>5</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Value id="1"><Label xml:lang="de">1 Punkt - 1 Quelle</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">2 Punkte - 2 Quellen</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">3 Punkte - 3 Quellen</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">4 Punkte - 4 Quellen</Label><Label xml:lang="en" /></Value><Value id="5"><Label xml:lang="de">5 Punkte - 5 Quellen und mehr</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="123" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: Time Design</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>3</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Value id="1"><Label xml:lang="de">0 Punkte - reiner Querschnitt</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">1 Punkt - Trend/Wiederholter Querschnitt</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">2 Punkte - experimentelles Design inkl. Prä- und Posttest</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">3 Punkte - "echter" Längsschnitt (&gt; 2 Erhebungszeitpunkte oder &gt;= 1 Jahr zwischen 1. und 2. EZP)</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="124" type="listsingleselect"><Label xml:lang="de">Bewertung des Datensatzes: geographische Verteilung der Erhebung</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>1</Min><Max>4</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Value id="1"><Label xml:lang="de">1 Punkt - ein BL</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">2 Punkte - mehrere BL</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">3 Punkte - gesamtdeutsch</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">4 Punkte - international</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="125" type="listsingleselect"><Label xml:lang="de">Bewertung der Dokumentation: Liegen Informationen zum Testinstrument vor?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>4</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Value id="1"><Label xml:lang="de">0 Punkte - keine Informationen zum Instrument</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">1 Punkt - nur eigenentwickelte Instrumente, die nur mit psychometrischen Kennwerten dokumentiert sind</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">2 Punkte - mindestens ein etabliertes/normiertes aber proprietäres Instrument</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">3 Punkte - mindestens ein etabliertes/normiertes und frei verfügbares Instrument</Label><Label xml:lang="en" /></Value><Value id="5"><Label xml:lang="de">4 Punkte - alle Instrumente sind etabliert/normiert und frei verfügbar</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="126" type="listsingleselect"><Label xml:lang="de">Bewertung der Dokumentation: Wieviele Publikationen sind bereits aus dem Datensatz entstanden?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>5</Max><ListControl>float</ListControl></TypeSpec><DefaultValue /><Description xml:lang="de">siehe Citavi</Description><Value id="1"><Label xml:lang="de">0 Punkte - 0</Label><Label xml:lang="en" /></Value><Value id="2"><Label xml:lang="de">1 Punkt - 1 bis 5</Label><Label xml:lang="en" /></Value><Value id="3"><Label xml:lang="de">2 Punkte - 5 bis 10</Label><Label xml:lang="en" /></Value><Value id="4"><Label xml:lang="de">3 Punkte - 10 bis 20</Label><Label xml:lang="en" /></Value><Value id="5"><Label xml:lang="de">4 Punkte - 20 bis 50</Label><Label xml:lang="en" /></Value><Value id="6"><Label xml:lang="de">5 Punkte - &gt; 50</Label><Label xml:lang="en" /></Value></MDDef><MDDef id="127" type="boolean"><Label xml:lang="de">Bewertung des Bezugs zu anderen Daten: Sind die Daten für Vergleiche mit bereits vorhandenen Daten geeignet?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">z. B. gleiche Population, gleiche Testinstrumente, gleiches Treatment, o. ä.
 
 0 - nein/unklar
-1 - ja</Description></MDDef><MDDef id="128" type="integer"><Label xml:lang="de">Bewertung des Bezugs zu anderen Daten: Können die Daten mit bereits vorhandenen Daten verknüpft werden?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">Verknüpfbarkeit auf Schul-, Klassen- oder Individualebene
+1 - ja</Description></MDDef><MDDef id="128" type="boolean"><Label xml:lang="de">Bewertung des Bezugs zu anderen Daten: Können die Daten mit bereits vorhandenen Daten verknüpft werden?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">Verknüpfbarkeit auf Schul-, Klassen- oder Individualebene
 
 0 - nein/unklar
-1 - ja</Description></MDDef><MDDef id="129" type="integer"><Label xml:lang="de">Bewertung des Bezugs zu anderen Daten: Füllen die Daten besonders relevante Lücken in der Forschungsdatenlandschaft?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /></MDDef><MDDef id="130" type="integer"><Label xml:lang="de">Bewertung von Gesamteindruck, Besonderheiten u. ä.: Welchen Gesamteindruck habt ihr von den Daten? Welche Besonderheiten (positive wie negative) weisen sie auf? Gibt es hinsichtlich bereits geplanter Nutzung oder geplanter Erweiterungen weitere Bemerkungen? Habt ihr andere Kommentare?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">0 - kein Zusatzpunkt
+1 - ja</Description></MDDef><MDDef id="129" type="boolean"><Label xml:lang="de">Bewertung des Bezugs zu anderen Daten: Füllen die Daten besonders relevante Lücken in der Forschungsdatenlandschaft?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">0 - nein/unklar
+1 - ja</Description></MDDef><MDDef id="130" type="integer"><Label xml:lang="de">Bewertung von Gesamteindruck, Besonderheiten u. ä.: Welchen Gesamteindruck habt ihr von den Daten? Welche Besonderheiten (positive wie negative) weisen sie auf? Gibt es hinsichtlich bereits geplanter Nutzung oder geplanter Erweiterungen weitere Bemerkungen? Habt ihr andere Kommentare?</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD></MDDefMetadata><TypeSpec><Min>0</Min><Max>1</Max></TypeSpec><DefaultValue /><Description xml:lang="de">0 - kein Zusatzpunkt
 1 - Zusatzpunkt für besonders positiv auffallende Daten</Description></MDDef></MDCat>
