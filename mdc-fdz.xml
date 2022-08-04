@@ -1116,7 +1116,7 @@
     </MDDefMetadata>
     <TypeSpec>
       <Min>0</Min>
-      <Seconds>false</Seconds>
+      <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
   <MDDef id="74" type="integer">
