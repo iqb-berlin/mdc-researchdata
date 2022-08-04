@@ -1109,7 +1109,7 @@
       <Seconds>true</Seconds>
     </TypeSpec>
   </MDDef>
-  <MDDef id="73" type="decimal">
+  <MDDef id="73" type="integer">
     <Label xml:lang="de">wiMi: Aufbereitung der Daten</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">3</MD>
