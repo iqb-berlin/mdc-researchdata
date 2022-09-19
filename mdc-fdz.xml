@@ -701,7 +701,7 @@
     <Label xml:lang="de">verfügbar seit</Label>
     <Description xml:lang="de">=Veröffentlichungsdatum: seit wann sind die Daten zur Nachnutzung bereitgestellt; auf Website MM/JJJJ</Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8 14</MD>
     </MDDefMetadata>
   </MDDef>
   <MDDef id="38" type="textde">
