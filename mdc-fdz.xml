@@ -273,19 +273,19 @@
     </TypeSpec>
     <Value id="1">
       <Label xml:lang="de">Umfragedaten</Label>
-      <Label xml:lang="en" />
+      <Label xml:lang="en">Survey Data</Label>
     </Value>
     <Value id="2">
       <Label xml:lang="de">Daten aus Kompetenz- und Leistungsmessungen</Label>
-      <Label xml:lang="en" />
+      <Label xml:lang="en">Skills Measurement / Performance Measurement</Label>
     </Value>
     <Value id="3">
       <Label xml:lang="de">Qualitatives Datenmaterial</Label>
-      <Label xml:lang="en" />
+      <Label xml:lang="en">Qualitative, non-standardised or low-standardised Data Material</Label>
     </Value>
     <Value id="4">
       <Label xml:lang="de">Anderweitige Datentypen</Label>
-      <Label xml:lang="en" />
+      <Label xml:lang="en">Other</Label>
     </Value>
   </MDDef>
   <MDDef id="8" type="listmultiselect">
