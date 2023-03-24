@@ -81,6 +81,10 @@
       <Label xml:lang="de">Robert Bosch Stifung GmbH</Label>
       <Label xml:lang="en">Robert Bosch Stifung GmbH</Label>
     </Value>
+    <Value id="19">
+      <Label xml:lang="de">Bundesinstitut für Berufsbildung (BIBB)</Label>
+      <Label xml:lang="en">Federal Institute for Vocational Education and Training (BIBB)</Label>
+    </Value>
     </MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
