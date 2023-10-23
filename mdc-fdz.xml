@@ -1260,7 +1260,7 @@
     </Value>
     <Value id="2">
       <Label xml:lang="de">Längsschnitt: Kohorten</Label>
-      <Label xml:lang="en">Longitudinal.Cohort.Event-based</Label>
+      <Label xml:lang="en">Longitudinal.CohortEventBased</Label>
     </Value>
     <Value id="3">
       <Label xml:lang="de">Längsschnitt: Trend/Wiederholter Querschnitt</Label>
