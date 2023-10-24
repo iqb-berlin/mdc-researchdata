@@ -1201,13 +1201,13 @@
 <MDDef id="139" type="boolean">
     <Label xml:lang="de">Einzelitems</Label>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
 </MDDef>
     <MDDef id="140" type="boolean">
     <Label xml:lang="de">Kompetenzschätzer</Label>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
   </MDDef>
   <MDDef id="83" type="boolean">
