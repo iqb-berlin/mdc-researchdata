@@ -1650,7 +1650,6 @@
   </MDDef>
   <MDDef id="138" type="textde">
     <Label xml:lang="de">Anmerkung zu Vertrag</Label>
-    <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD></MDDefMetadata><DefaultValue />
     </MDDef>
