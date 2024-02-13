@@ -1648,7 +1648,7 @@
   </MDDef>
   <MDDef id="137" type="date"><Label xml:lang="de">Dateneingang am FDZ</Label><MDDefMetadata><MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD></MDDefMetadata><DefaultValue /><Label xml:lang="en">Receiving the data</Label>
   </MDDef>
-  <MDDef id="138" type="textde">
+  <MDDef id="141" type="textde">
     <Label xml:lang="de">Anmerkung zu Vertrag</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD></MDDefMetadata><DefaultValue />
