@@ -1326,8 +1326,8 @@
     </Value>
   </MDDef>
   <MDDef id="93" type="textmultilang">
-    <Label xml:lang="de">ReadMe IZA</Label>
-    <Description xml:lang="de">hier sind die alle Materialien (also Datansatz/-sätze, Dokumentationsmaterialien) aufgelistet, die bei IZA-Files heraus gegeben werden (diese erscheinen im ReadMe IZA) </Description>
+    <Label xml:lang="de">ReadMe SUF Remote</Label>
+    <Description xml:lang="de">hier sind die alle Materialien (also Datansatz/-sätze, Dokumentationsmaterialien) aufgelistet, die beim Fernrechnen heraus gegeben werden (diese erscheinen im ReadMe SUF Remote) </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
@@ -1337,8 +1337,8 @@
     </TypeSpec>
   </MDDef>
   <MDDef id="94" type="textmultilang">
-    <Label xml:lang="de">ReadMe SUF</Label>
-    <Description xml:lang="de">hier sind alle Materialien (also Datensatz/-sätze, Dokumentationsmaterialien) aufgelistet, die bei SUF heraus gegeben werden (diese erscheinen im ReadMe SUF)</Description>
+    <Label xml:lang="de">ReadMe SUF Off-site</Label>
+    <Description xml:lang="de">hier sind alle Materialien (also Datensatz/-sätze, Dokumentationsmaterialien) aufgelistet, die bei Datenpaketen ohne sensible Daten heraus gegeben werden (diese erscheinen im ReadMe SUF Off-site)</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
