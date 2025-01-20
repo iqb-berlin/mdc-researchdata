@@ -85,6 +85,10 @@
       <Label xml:lang="de">Bundesinstitut für Berufsbildung (BIBB)</Label>
       <Label xml:lang="en">Federal Institute for Vocational Education and Training (BIBB)</Label>
     </Value>
+    <Value id="143">
+      <Label xml:lang="de">Mercator-Institut für Sprachförderung und Deutsch als Zweitsprache</Label>
+      <Label xml:lang="en">Mercator Institute for Literacy and Language Education</Label>
+    </Value>
     </MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
