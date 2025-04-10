@@ -1488,6 +1488,17 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
   </MDDef>
+ <MDDef id="146" type="textmultilang">
+    <Label xml:lang="de">Hinweise zur Datennutzung</Label>
+    <Description xml:lang="de">fuer Website</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+    </MDDefMetadata>
+    <TypeSpec>
+      <Languages>de en</Languages>
+      <MultiLineText>true</MultiLineText>
+    </TypeSpec>
+  </MDDef>
   <MDDef id="109" type="textde">
     <Label xml:lang="de">ID des AIP</Label>
     <Description xml:lang="de">Beschreibung</Description>
