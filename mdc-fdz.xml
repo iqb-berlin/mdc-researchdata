@@ -633,7 +633,7 @@
       <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
-  <MDDef id="25" type="textde">
+  <!--<MDDef id="25" type="textde">
     <Label xml:lang="de">Bericht zur Studie</Label>
     <Description xml:lang="de">wenn vorhanden hier angeben</Description>
     <MDDefMetadata>
@@ -642,7 +642,7 @@
          <TypeSpec>
       <MultiLineText>true</MultiLineText>
     </TypeSpec>
-  </MDDef>
+  </MDDef>-->
   <MDDef id="26" type="textde">
     <Label xml:lang="de">Archivierende Einrichtung</Label>
     <Description xml:lang="de">=FDZ am IQB/FDZ at IQB</Description>
