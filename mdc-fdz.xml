@@ -1471,7 +1471,7 @@
       <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
-  <MDDef id="107" type="textde" deprecated="true">
+  <MDDef id="107" type="textde">
     <Label xml:lang="de">Dokumentation</Label>
     <Description xml:lang="de">Link zum DaQS</Description>
     <MDDefMetadata>
