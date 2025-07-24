@@ -674,7 +674,7 @@
       <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
-  <MDDef id="31" type="textde">
+  <MDDef id="31" type="textde" deprecated="true">
     <Label xml:lang="de">Link zur Studie</Label>
     <Description xml:lang="de">Projekt-Webseite</Description>
     <MDDefMetadata>
