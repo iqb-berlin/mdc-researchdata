@@ -1261,6 +1261,12 @@
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
   </MDDef>
+  <MDDef id="147" type="boolean">
+    <Label xml:lang="de">CUF vorhanden</Label>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+    </MDDefMetadata>
+  </MDDef>
     <MDDef id="145" type="boolean">
     <Label xml:lang="de">Datenprodukt mit sensiblen Daten</Label>
     <MDDefMetadata>
