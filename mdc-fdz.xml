@@ -1107,6 +1107,28 @@
       <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
+  <MDDef id="148" type="textmultilang">
+    <Label xml:lang="de">aktive DOI</Label>
+    <Label xml:lang="en">active DOI</Label>
+    <Description xml:lang="de">Liste aktiver DOI die auf eine Studie verweisen</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+    </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    <Languages>de en</Languages></TypeSpec>
+  </MDDef>
+  <MDDef id="149" type="textmultilang">
+    <Label xml:lang="de">veraltete DOI</Label>
+    <Label xml:lang="en">deprecated DOI</Label>
+    <Description xml:lang="de">Liste veralteter DOI die auf eine Studie verweisen</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
+    </MDDefMetadata>
+         <TypeSpec>
+      <MultiLineText>true</MultiLineText>
+    <Languages>de en</Languages></TypeSpec>
+  </MDDef>
   <MDDef id="71" type="integer">
     <Label xml:lang="de">wiMi: Eingangskontrolle</Label>
     <MDDefMetadata>
