@@ -89,6 +89,10 @@
       <Label xml:lang="de">Mercator-Institut für Sprachförderung und Deutsch als Zweitsprache</Label>
       <Label xml:lang="en">Mercator Institute for Literacy and Language Education</Label>
     </Value>
+     <Value id="150">
+      <Label xml:lang="de">Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen</Label>
+      <Label xml:lang="en">North Rhine-Westphalia Ministry of School, and Education</Label>
+    </Value>
     </MDDef>
   <MDDef id="4" type="listmultiselect">
     <Label xml:lang="de">Region</Label>
