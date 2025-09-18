@@ -1444,7 +1444,7 @@
   </MDDef>
   <MDDef id="97" type="boolean">
     <Label xml:lang="de">Regionalkennziffern im Datensatz enthalten</Label>
-    <Label xml:lang="de">Regional indicators included in the data set</Label>
+    <Label xml:lang="en">Regional indicators included in the data set</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
