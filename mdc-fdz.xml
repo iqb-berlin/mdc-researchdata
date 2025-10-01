@@ -304,7 +304,7 @@
   </MDDef>
   <MDDef id="8" type="listmultiselect">
     <Label xml:lang="de">Erhebungsverfahren</Label>
-    <Label xml:lang="en">Mode of Collection</Label>
+    <!-- <Label xml:lang="en">Mode of Collection</Label> -->
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/a1fb802d-6075-d123-1f26-6eb9f20d9984</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
@@ -511,7 +511,7 @@
   </MDDef>
   <MDDef id="10" type="listmultiselect">
     <Label xml:lang="de">Auswahlverfahren / Sampling Method</Label>
-    <Label xml:lang="en">Sampling Method</Label>
+    <!-- <Label xml:lang="en">Sampling Method</Label> -->
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/1d791cc7-6d8d-dd35-b1ef-0eec9c31bbb5</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -634,7 +634,7 @@
   </MDDef>
   <MDDef id="24" type="textde">
     <Label xml:lang="de">Verwandte Studien</Label>
-     <Label xml:lang="en">Related Studies</Label>
+     <!-- <Label xml:lang="en">Related Studies</Label> -->
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
@@ -990,7 +990,7 @@
   </MDDef>
   <MDDef id="56" type="boolean">
     <Label xml:lang="de">Sperrvermerk/e</Label>
-    <Label xml:lang="en">Restriction Notice</Label>
+    <!-- <Label xml:lang="en">Restriction Notice</Label> -->
     <Description xml:lang="de">bei ja Häckchen setzen</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1322,7 +1322,7 @@
   </MDDef>
   <MDDef id="89" type="listmultiselect">
     <Label xml:lang="de">Erhebungsdesign (Time Method)</Label>
-    <Label xml:lang="en">Time Method</Label>
+    <!-- <Label xml:lang="en">Time Method</Label> -->
     <Description xml:lang="de">= Untersuchungsdesign; https://mdr.iqb.hu-berlin.de/#/catalog/56cc4164-6731-7d54-c97f-ad9bd24bf1b7</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1557,7 +1557,7 @@
   </MDDef>
   <MDDef id="110" type="listsingleselect">
     <Label xml:lang="de">Erhebungseinheit</Label>
-    <Label xml:lang="en">Survey Unit</Label>
+    <!-- <Label xml:lang="en">Survey Unit</Label> -->
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
