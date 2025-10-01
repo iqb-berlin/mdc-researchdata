@@ -716,7 +716,7 @@
   </MDDef>
   <MDDef id="37" type="date">
     <Label xml:lang="de">verfügbar seit</Label>
-    <Label xml:lang="en">Current Version Available Since</Label>
+    <!-- <Label xml:lang="en">Current Version Available Since</Label> -->
     <Description xml:lang="de">=Veröffentlichungsdatum: seit wann sind die Daten zur Nachnutzung bereitgestellt; auf Website MM/JJJJ</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8 14</MD>
