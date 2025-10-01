@@ -1239,7 +1239,7 @@
   </MDDef>
   <MDDef id="82" type="textmultilang">
     <Label xml:lang="de">erfasste Kompetenzen</Label>
-    <Label xml:lang="en">Measured Competencies</Label>
+    <!-- <Label xml:lang="en">Measured Competencies</Label> -->
     <Description xml:lang="de">für Anzeige auf Website</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
