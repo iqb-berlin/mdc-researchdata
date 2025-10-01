@@ -5,7 +5,7 @@
   <License>CC BY-SA 4.0</License>
   <MDDef id="2" type="listmultiselect">
     <Label xml:lang="de">Auftraggebende / Mittelgebende</Label>
-    <Label xml:lang="en">Funded by</Label>
+   <!-- <Label xml:lang="en">Funded by</Label> -->
     <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1019,7 +1019,7 @@
   </MDDef>
   <MDDef id="58" type="textmultilang">
     <Label xml:lang="de">Datenrestriktion</Label>
-    <Label xml:lang="en">Restriction Notice</Label>
+    <!-- <Label xml:lang="en">Restriction Notice</Label> -->
     <Description xml:lang="de">auf gesamten Datensatz bezogen; keine zeitliche Komponente; Bsp.: Daten dürfen nie als Gesamtpaket ausgegeben werden</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1100,7 +1100,7 @@
   </MDDef>
   <MDDef id="70" type="textmultilang">
     <Label xml:lang="de">Zitationsvorschlag</Label>
-    <Label xml:lang="en">Suggested Citation</Label>
+    <!-- <Label xml:lang="en">Suggested Citation</Label> -->
     <Description xml:lang="de">des Datenpakets</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1227,7 +1227,7 @@
   </MDDef>
   <MDDef id="81" type="textmultilang">
     <Label xml:lang="de">Stichprobe</Label>
-      <Label xml:lang="en">Sample</Label>
+    <!-- <Label xml:lang="en">Sample</Label> -->
     <Description xml:lang="de">der Primärerhebung; N=</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1361,7 +1361,7 @@
   </MDDef>
   <MDDef id="90" type="listmultiselect">
     <Label xml:lang="de">Forschungsdesign (Research Design)</Label>
-    <Label xml:lang="en">Research Design</Label>
+    <!-- <Label xml:lang="en">Research Design</Label> -->
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/89724b81-2aab-d0dc-29ca-87f29b1c9e01</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1445,7 +1445,7 @@
   </MDDef>
   <MDDef id="97" type="boolean">
     <Label xml:lang="de">Regionalkennziffern im Datensatz enthalten</Label>
-    <Label xml:lang="en">Regional indicators included in the data set</Label>
+    <!-- <Label xml:lang="en">Regional indicators included in the data set</Label> -->
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
