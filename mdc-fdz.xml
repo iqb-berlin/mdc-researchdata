@@ -4,7 +4,7 @@
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <License>CC BY-SA 4.0</License>
   <MDDef id="2" type="listmultiselect">
-    <Label xml:lang="de">Auftraggebende / Mittelgebende</Label>
+    <Label xml:lang="de">Auftraggeber / Mittelgeber</Label>
    <!-- <Label xml:lang="en">Funded by</Label> -->
     <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
     <MDDefMetadata>
