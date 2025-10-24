@@ -5,7 +5,7 @@
   <License>CC BY-SA 4.0</License>
   <MDDef id="2" type="listmultiselect">
     <Label xml:lang="de">Auftraggeber / Mittelgeber</Label>
-   <!-- <Label xml:lang="en">Funded by</Label> -->
+   <Label xml:lang="en">Funded by</Label> 
     <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -304,7 +304,7 @@
   </MDDef>
   <MDDef id="8" type="listmultiselect">
     <Label xml:lang="de">Erhebungsverfahren</Label>
-    <!-- <Label xml:lang="en">Mode of Collection</Label> -->
+    <Label xml:lang="en">Mode of Collection</Label>
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/a1fb802d-6075-d123-1f26-6eb9f20d9984</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
@@ -511,7 +511,7 @@
   </MDDef>
   <MDDef id="10" type="listmultiselect">
     <Label xml:lang="de">Auswahlverfahren / Sampling Method</Label>
-    <!-- <Label xml:lang="en">Sampling Method</Label> -->
+    <Label xml:lang="en">Sampling Method</Label>
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/1d791cc7-6d8d-dd35-b1ef-0eec9c31bbb5</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -634,7 +634,7 @@
   </MDDef>
   <MDDef id="24" type="textde">
     <Label xml:lang="de">Verwandte Studien</Label>
-     <!-- <Label xml:lang="en">Related Studies</Label> -->
+    <Label xml:lang="en">Related Studies</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
@@ -716,7 +716,7 @@
   </MDDef>
   <MDDef id="37" type="date">
     <Label xml:lang="de">verfügbar seit</Label>
-    <!-- <Label xml:lang="en">Current Version Available Since</Label> -->
+   <Label xml:lang="en">Current Version Available Since</Label>
     <Description xml:lang="de">=Veröffentlichungsdatum: seit wann sind die Daten zur Nachnutzung bereitgestellt; auf Website MM/JJJJ</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8 14</MD>
@@ -990,7 +990,7 @@
   </MDDef>
   <MDDef id="56" type="boolean">
     <Label xml:lang="de">Sperrvermerk/e</Label>
-    <!-- <Label xml:lang="en">Restriction Notice</Label> -->
+    <Label xml:lang="en">Restriction Notice</Label>
     <Description xml:lang="de">bei ja Häckchen setzen</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1019,7 +1019,7 @@
   </MDDef>
   <MDDef id="58" type="textmultilang">
     <Label xml:lang="de">Datenrestriktion</Label>
-    <!-- <Label xml:lang="en">Restriction Notice</Label> -->
+    <Label xml:lang="en">Restriction Notice</Label>
     <Description xml:lang="de">auf gesamten Datensatz bezogen; keine zeitliche Komponente; Bsp.: Daten dürfen nie als Gesamtpaket ausgegeben werden</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1100,7 +1100,7 @@
   </MDDef>
   <MDDef id="70" type="textmultilang">
     <Label xml:lang="de">Zitationsvorschlag</Label>
-    <!-- <Label xml:lang="en">Suggested Citation</Label> -->
+    <Label xml:lang="en">Suggested Citation</Label>
     <Description xml:lang="de">des Datenpakets</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1227,7 +1227,7 @@
   </MDDef>
   <MDDef id="81" type="textmultilang">
     <Label xml:lang="de">Stichprobe</Label>
-    <!-- <Label xml:lang="en">Sample</Label> -->
+    <Label xml:lang="en">Sample</Label> 
     <Description xml:lang="de">der Primärerhebung; N=</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1239,7 +1239,7 @@
   </MDDef>
   <MDDef id="82" type="textmultilang">
     <Label xml:lang="de">erfasste Kompetenzen</Label>
-    <!-- <Label xml:lang="en">Measured Competencies</Label> -->
+    <Label xml:lang="en">Measured Competencies</Label>
     <Description xml:lang="de">für Anzeige auf Website</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1322,7 +1322,7 @@
   </MDDef>
   <MDDef id="89" type="listmultiselect">
     <Label xml:lang="de">Erhebungsdesign (Time Method)</Label>
-    <!-- <Label xml:lang="en">Time Method</Label> -->
+   <Label xml:lang="en">Time Method</Label>
     <Description xml:lang="de">= Untersuchungsdesign; https://mdr.iqb.hu-berlin.de/#/catalog/56cc4164-6731-7d54-c97f-ad9bd24bf1b7</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1361,7 +1361,7 @@
   </MDDef>
   <MDDef id="90" type="listmultiselect">
     <Label xml:lang="de">Forschungsdesign (Research Design)</Label>
-    <!-- <Label xml:lang="en">Research Design</Label> -->
+   <Label xml:lang="en">Research Design</Label>
     <Description xml:lang="de">https://mdr.iqb.hu-berlin.de/#/catalog/89724b81-2aab-d0dc-29ca-87f29b1c9e01</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
@@ -1445,7 +1445,7 @@
   </MDDef>
   <MDDef id="97" type="boolean">
     <Label xml:lang="de">Regionalkennziffern im Datensatz enthalten</Label>
-    <!-- <Label xml:lang="en">Regional indicators included in the data set</Label> -->
+   <Label xml:lang="en">Regional indicators included in the data set</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
@@ -1557,7 +1557,7 @@
   </MDDef>
   <MDDef id="110" type="listsingleselect">
     <Label xml:lang="de">Erhebungseinheit</Label>
-    <!-- <Label xml:lang="en">Survey Unit</Label> -->
+   <Label xml:lang="en">Survey Unit</Label>
     <Description xml:lang="de">Beschreibung</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">9</MD>
