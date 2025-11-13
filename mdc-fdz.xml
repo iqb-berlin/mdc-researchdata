@@ -491,8 +491,8 @@
       <Label xml:lang="en">Delivery (only for re-analysis)</Label>
     </Value>
     <Value id="6">
-      <Label xml:lang="de">SUF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
-      <Label xml:lang="en">Application required: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag</Label>
+      <Label xml:lang="de">SUF: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
+      <Label xml:lang="en">Application required: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
       <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
     </Value>
     <Value id="8">
@@ -500,8 +500,8 @@
       <Label xml:lang="en">Download</Label>
     </Value>
     <Value id="9">
-      <Label xml:lang="de">CF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag</Label>
-      <Label xml:lang="en">Application requiered: https://www.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag</Label>
+      <Label xml:lang="de">CF: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag/AntragsformularCF</Label>
+      <Label xml:lang="en">Application requiered: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag/AntragsformularCF</Label>
     </Value>
     <Value id="5">
       <Label xml:lang="de">Nicht verfügbar</Label>
