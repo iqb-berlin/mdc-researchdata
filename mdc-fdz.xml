@@ -1237,6 +1237,69 @@
            <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
+ <MDDef id="151" type="listmultiselect">
+    <Label xml:lang="de">Erhebungseinheit Schüler*innen en detail</Label>
+    <Label xml:lang="en">Survey Unit Students en detail</Label>
+    <Description xml:lang="de">=Beschreibung</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
+    </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
+    <Value id="1">
+      <Label xml:lang="de">Jahrgangsstufe 1</Label>
+      <Label xml:lang="en">Grade 1</Label>
+    </Value>
+    <Value id="2">
+      <Label xml:lang="de">Jahrgangsstufe 2</Label>
+      <Label xml:lang="en">Grade 2</Label>
+    </Value>
+    <Value id="3">
+      <Label xml:lang="de">Jahrgangsstufe 3</Label>
+      <Label xml:lang="en">Grade 3</Label>
+    </Value>
+    <Value id="4">
+      <Label xml:lang="de">Jahrgangsstufe 4</Label>
+      <Label xml:lang="en">Grade 4</Label>
+    </Value>
+    <Value id="5">
+      <Label xml:lang="de">Jahrgangsstufe 5</Label>
+      <Label xml:lang="en">Grade 5</Label>
+    </Value>
+    <Value id="6">
+      <Label xml:lang="de">Jahrgangsstufe 6</Label>
+      <Label xml:lang="en">Grade 6</Label>
+    </Value>
+    <Value id="7">
+      <Label xml:lang="de">Jahrgangsstufe 7</Label>
+      <Label xml:lang="en">Grade 7</Label>
+    </Value>
+    <Value id="8">
+      <Label xml:lang="de">Jahrgangsstufe 8</Label>
+      <Label xml:lang="en">Grade 8</Label>
+    </Value>
+    <Value id="9">
+      <Label xml:lang="de">Jahrgangsstufe 9</Label>
+      <Label xml:lang="en">Grade 9</Label>
+    </Value>
+    <Value id="10">
+      <Label xml:lang="de">Jahrgangsstufe 10</Label>
+      <Label xml:lang="en">Grade 10</Label>
+    </Value>
+    <Value id="11">
+      <Label xml:lang="de">Jahrgangsstufe 11</Label>
+      <Label xml:lang="en">Grade 11</Label>
+    </Value>
+    <Value id="12">
+      <Label xml:lang="de">Jahrgangsstufe 12</Label>
+      <Label xml:lang="en">Grade 12</Label>
+    </Value>
+    <Value id="13">
+      <Label xml:lang="de">Jahrgangsstufe 13</Label>
+      <Label xml:lang="en">Grade 13</Label>
+    </Value>
+  </MDDef>  
   <MDDef id="82" type="textmultilang">
     <Label xml:lang="de">erfasste Kompetenzen</Label>
     <Label xml:lang="en">Measured Competencies</Label>
