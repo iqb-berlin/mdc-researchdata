@@ -1248,40 +1248,40 @@
       <ListControl>expandable</ListControl>
     </TypeSpec>
     <Value id="1">
-      <Label xml:lang="de">Jahrgangsstufe 1</Label>
-      <Label xml:lang="en">Grade 1</Label>
+      <Label xml:lang="de">Jahrgangsstufe 01</Label>
+      <Label xml:lang="en">Grade 01</Label>
     </Value>
     <Value id="2">
-      <Label xml:lang="de">Jahrgangsstufe 2</Label>
-      <Label xml:lang="en">Grade 2</Label>
+      <Label xml:lang="de">Jahrgangsstufe 02</Label>
+      <Label xml:lang="en">Grade 02</Label>
     </Value>
     <Value id="3">
-      <Label xml:lang="de">Jahrgangsstufe 3</Label>
+      <Label xml:lang="de">Jahrgangsstufe 03</Label>
       <Label xml:lang="en">Grade 3</Label>
     </Value>
     <Value id="4">
-      <Label xml:lang="de">Jahrgangsstufe 4</Label>
-      <Label xml:lang="en">Grade 4</Label>
+      <Label xml:lang="de">Jahrgangsstufe 04</Label>
+      <Label xml:lang="en">Grade 04</Label>
     </Value>
     <Value id="5">
-      <Label xml:lang="de">Jahrgangsstufe 5</Label>
-      <Label xml:lang="en">Grade 5</Label>
+      <Label xml:lang="de">Jahrgangsstufe 05</Label>
+      <Label xml:lang="en">Grade 05</Label>
     </Value>
     <Value id="6">
-      <Label xml:lang="de">Jahrgangsstufe 6</Label>
-      <Label xml:lang="en">Grade 6</Label>
+      <Label xml:lang="de">Jahrgangsstufe 06</Label>
+      <Label xml:lang="en">Grade 06</Label>
     </Value>
     <Value id="7">
-      <Label xml:lang="de">Jahrgangsstufe 7</Label>
-      <Label xml:lang="en">Grade 7</Label>
+      <Label xml:lang="de">Jahrgangsstufe 07</Label>
+      <Label xml:lang="en">Grade 07</Label>
     </Value>
     <Value id="8">
-      <Label xml:lang="de">Jahrgangsstufe 8</Label>
-      <Label xml:lang="en">Grade 8</Label>
+      <Label xml:lang="de">Jahrgangsstufe 08</Label>
+      <Label xml:lang="en">Grade 08</Label>
     </Value>
     <Value id="9">
-      <Label xml:lang="de">Jahrgangsstufe 9</Label>
-      <Label xml:lang="en">Grade 9</Label>
+      <Label xml:lang="de">Jahrgangsstufe 09</Label>
+      <Label xml:lang="en">Grade 09</Label>
     </Value>
     <Value id="10">
       <Label xml:lang="de">Jahrgangsstufe 10</Label>
