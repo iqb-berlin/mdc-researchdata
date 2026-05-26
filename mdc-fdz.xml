@@ -1237,6 +1237,41 @@
            <MultiLineText>true</MultiLineText>
     </TypeSpec>
   </MDDef>
+<MDDef id="152" type="listmultiselect">
+    <Label xml:lang="de">Stufe im Bildungssystem nach ISCED-2011</Label>
+    <Label xml:lang="en">Level according to ISCED-2011</Label>
+    <Description xml:lang="de">=Beschreibung</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
+    </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
+    <Value id="1">
+      <Label xml:lang="de">Stufe 0: Elementarbereich</Label>
+      <Label xml:lang="en">Level 0: Early Childhood Education</Label>
+    </Value>
+    <Value id="2">
+      <Label xml:lang="de">Stufe 1: Primarbereich</Label>
+      <Label xml:lang="en">Level 1: Primary Education</Label>
+    </Value>
+    <Value id="3">
+      <Label xml:lang="de">Stufe 2: Sekundarstufe I</Label>
+      <Label xml:lang="en">Level 2: Lower Secondary Education</Label>
+    </Value>
+    <Value id="4">
+      <Label xml:lang="de">Stufe 3: Sekundarstufe II</Label>
+      <Label xml:lang="en">Level 3: Upper Secondary Education</Label>
+    </Value>
+    <Value id="5">
+      <Label xml:lang="de">Stufe 4: Berufliche Bildung</Label>
+      <Label xml:lang="en">Level 4: Vocational Education</Label>
+    </Value>
+    <Value id="6">
+      <Label xml:lang="de">Stufe 6 und 7: Hochschulbildung</Label>
+      <Label xml:lang="en">Level 6 and 7: Higher Education</Label>
+    </Value>
+  </MDDef>
  <MDDef id="151" type="listmultiselect">
     <Label xml:lang="de">Erhebungseinheit Schüler*innen en detail</Label>
     <Label xml:lang="en">Survey Unit Students en detail</Label>
