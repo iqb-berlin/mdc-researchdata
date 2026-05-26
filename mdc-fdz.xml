@@ -1272,6 +1272,45 @@
       <Label xml:lang="en">Level 6 and 7: Higher Education</Label>
     </Value>
   </MDDef>
+<MDDef id="153" type="listmultiselect">
+    <Label xml:lang="de">Schulart</Label>
+    <Label xml:lang="en">Type of School</Label>
+    <Description xml:lang="de">=Beschreibung</Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
+    </MDDefMetadata>
+    <TypeSpec>
+      <ListControl>expandable</ListControl>
+    </TypeSpec>
+    <Value id="1">
+      <Label xml:lang="de">Grundschule</Label>
+      <Label xml:lang="en">Elementary School</Label>
+    </Value>
+    <Value id="2">
+      <Label xml:lang="de">Gymnasium</Label>
+      <Label xml:lang="en">High Track</Label>
+    </Value>
+    <Value id="3">
+      <Label xml:lang="de">nicht-gymnasiale Schulart</Label>
+      <Label xml:lang="en">Secondary School</Label>
+    </Value>
+    <Value id="4">
+      <Label xml:lang="de">Schule mit mehreren Bildungsgängen</Label>
+      <Label xml:lang="en">School Offering Multiple Degree Programs</Label>
+    </Value>
+    <Value id="5">
+      <Label xml:lang="de">Privatschule</Label>
+      <Label xml:lang="en">Private School</Label>
+    </Value>
+    <Value id="6">
+      <Label xml:lang="de">Förderschule</Label>
+      <Label xml:lang="en">Special School</Label>
+    </Value>
+    <Value id="7">
+      <Label xml:lang="de">Berufsschule</Label>
+      <Label xml:lang="en">Vocational School</Label>
+    </Value>
+  </MDDef>
  <MDDef id="151" type="listmultiselect">
     <Label xml:lang="de">Erhebungseinheit Schüler*innen en detail</Label>
     <Label xml:lang="en">Survey Unit Students en detail</Label>
