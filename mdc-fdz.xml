@@ -482,25 +482,39 @@
       <ListControl>list</ListControl>
     </TypeSpec>
     <Value id="2">
-      <Label xml:lang="de">SUF: Lieferbar für Re- und Sekundäranalysen</Label>
+      <Label xml:lang="de">SUF Off-site: Lieferbar für Re- und Sekundäranalysen</Label>
       <Label xml:lang="en">Delivery for re- and secondary analysis</Label>
       <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
     </Value>
     <Value id="7">
-      <Label xml:lang="de">SUF: Lieferbar nur noch für Reanalysen</Label>
+      <Label xml:lang="de">SUF Off-site: Lieferbar nur noch für Reanalysen</Label>
       <Label xml:lang="en">Delivery (only for re-analysis)</Label>
     </Value>
     <Value id="6">
-      <Label xml:lang="de">SUF: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
+      <Label xml:lang="de">SUF Off-site: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
+      <Label xml:lang="en">Application required: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
+      <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
+    </Value>
+<Value id="10">
+      <Label xml:lang="de">SUF Remote: Lieferbar für Re- und Sekundäranalysen</Label>
+      <Label xml:lang="en">Delivery for re- and secondary analysis</Label>
+      <Description xml:lang="de">bei da I ra ist das Ziffer 2</Description>
+    </Value>
+    <Value id="11">
+      <Label xml:lang="de">SUF Remote: Lieferbar nur noch für Reanalysen</Label>
+      <Label xml:lang="en">Delivery (only for re-analysis)</Label>
+    </Value>
+    <Value id="12">
+      <Label xml:lang="de">SUF Remote: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
       <Label xml:lang="en">Application required: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag/FormularSUFs</Label>
       <Description xml:lang="de">bei da I ra wird die Info in ein Freitextfeld geschrieben</Description>
     </Value>
     <Value id="8">
-      <Label xml:lang="de">CF: Downloadbar</Label>
+      <Label xml:lang="de">CUF: Downloadbar</Label>
       <Label xml:lang="en">Download</Label>
     </Value>
     <Value id="9">
-      <Label xml:lang="de">CF: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag/AntragsformularCF</Label>
+      <Label xml:lang="de">CUF: Beantragung nötig: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag/AntragsformularCF</Label>
       <Label xml:lang="en">Application requiered: https://www2.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag/AntragsformularCF</Label>
     </Value>
     <Value id="5">
