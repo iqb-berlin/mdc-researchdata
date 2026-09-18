@@ -3,10 +3,10 @@
   <Label xml:lang="de">Katalog des IQB für Forschungsdaten</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <License>CC BY-SA 4.0</License>
-  <MDDef id="2" type="listmultiselect">
+ <MDDef id="2" type="listmultiselect">
     <Label xml:lang="de">Auftraggeber / Mittelgeber</Label>
    <Label xml:lang="en">Funded by</Label> 
-    <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber</Description>
+    <Description xml:lang="de">! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den VerbundFDB-Studien meist Mittelgebende; bei den FDZ-Studien meist Auftraggeber</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">14</MD>
     </MDDefMetadata>
@@ -16,83 +16,103 @@
     <Value id="1">
       <Label xml:lang="de">Bundesministerium für Bildung und Forschung (BMBF)</Label>
       <Label xml:lang="en">Federal Ministry of Education and Research </Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/04pz7b180/</nameIdentifier>
     </Value>
     <Value id="2">
       <Label xml:lang="de">Deutsche Forschungsgemeinschaft (DFG)</Label>
       <Label xml:lang="en">German Research Foundation (DFG)</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/018mejw64/</nameIdentifier>
     </Value>
     <Value id="3">
       <Label xml:lang="de">Kultusministerkonferenz (KMK)</Label>
       <Label xml:lang="en">Standing Conference of the Ministers of Education and Cultural Affairs of the Länder in the Federal Republic of Germany</Label>
+      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/133243378</nameIdentifier>
     </Value>
     <Value id="4">
       <Label xml:lang="de">Senatsverwaltung für Bildung, Jugend und Sport des Landes Berlin</Label>
       <Label xml:lang="en">Senate Department for Education, Youth and Sport of the State of Berlin</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/02jexx044/</nameIdentifier> 
     </Value>
     <Value id="5">
       <Label xml:lang="de">Ministerium für Bildung, Wissenschaft, Jugend und Kultur des Landes Rheinland-Pfalz</Label>
       <Label xml:lang="en">Rhineland-Palatinate Ministry of Education, Research, Youth, and Culture</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/03rrfep50/</nameIdentifier> 
     </Value>
     <Value id="6">
       <Label xml:lang="de">Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)</Label>
       <Label xml:lang="en">Organization for Economic Cooperation and Development (OECD)</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/0438wbg98/</nameIdentifier>
     </Value>
     <Value id="7">
       <Label xml:lang="de">Ministerium für Bildung, Jugend und Sport des Landes Brandenburg</Label>
       <Label xml:lang="en">Brandenburg Ministry of Education, Youth, and Sport</Label>
+      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/312580233</nameIdentifier>  
     </Value>
     <Value id="8">
       <Label xml:lang="de">International Association for the Evaluation of Educational Achievement (IEA)</Label>
       <Label xml:lang="en">International Association for the Evaluation of Educational Achievement (IEA)</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/00n789a42/</nameIdentifier> 
     </Value>
     <Value id="9">
       <Label xml:lang="de">Otto-Friedrich-Universität Bamberg</Label>
       <Label xml:lang="en">University Bamberg</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/01c1w6d29/</nameIdentifier> 
     </Value>
     <Value id="10">
       <Label xml:lang="de">Europäischer Sozialfonds (ESF)</Label>
       <Label xml:lang="en">The European Social Fund (ESF)</Label>
+      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/146102206</nameIdentifier>  
     </Value>
     <Value id="11">
       <Label xml:lang="de">Europäische Union (EU)</Label>
       <Label xml:lang="en">European Union (EU)</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/019w4f821/</nameIdentifier> 
     </Value>
     <Value id="12">
       <Label xml:lang="de">Träger Arbeit-Schule-Integrations-Gesellschaft e. V</Label>
       <Label xml:lang="en">Arbeit-Schule-Integrations-Gesellschaft e. V</Label>
     </Value>
     <Value id="13">
-      <Label xml:lang="de">Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes NRW (ehemals: Ministerium für Familie, Kinder, Jugend, Kultur und Sport)</Label>
+      <Label xml:lang="de">Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes Nordrhein-Westfalen</Label>
       <Label xml:lang="en">Ministry for Children, Family, Refugees and Integration of the Federal State of NRW</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/04gjr7b93/</nameIdentifier> 
     </Value>
     <Value id="14">
       <Label xml:lang="de">Leibniz-Gemeinschaft</Label>
       <Label xml:lang="en">Leibniz Association</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/01n6r0e97/</nameIdentifier> 
     </Value>
     <Value id="15">
       <Label xml:lang="de">Behörde für Schule und Berufsbildung der Freien und Hansestadt Hamburg (BSB)</Label>
       <Label xml:lang="en">Authority for Schools and Vocational Training of the Free and Hanseatic City of Hamburg</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/008wrw613/</nameIdentifier> 
     </Value>
   <Value id="16"><Label xml:lang="de">Freie Hansestadt Bremen</Label>
     <Label xml:lang="en">Free Hanseatic City of Bremen</Label>
+    <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/03xhyan61/</nameIdentifier> 
     </Value>
     <Value id="17"><Label xml:lang="de">Jacobs Foundation</Label>
       <Label xml:lang="en">Jacobs Foundation</Label></Value>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/03tj32a09/</nameIdentifier> 
   <Value id="18">
       <Label xml:lang="de">Robert Bosch Stifung GmbH</Label>
       <Label xml:lang="en">Robert Bosch Stifung GmbH</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/012kqkf58/</nameIdentifier> 
     </Value>
     <Value id="19">
       <Label xml:lang="de">Bundesinstitut für Berufsbildung (BIBB)</Label>
       <Label xml:lang="en">Federal Institute for Vocational Education and Training (BIBB)</Label>
+      <nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">https://ror.org/0420tmj11/</nameIdentifier> 
     </Value>
     <Value id="143">
       <Label xml:lang="de">Mercator-Institut für Sprachförderung und Deutsch als Zweitsprache</Label>
       <Label xml:lang="en">Mercator Institute for Literacy and Language Education</Label>
+      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/168838227</nameIdentifier> 
     </Value>
      <Value id="150">
       <Label xml:lang="de">Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen</Label>
       <Label xml:lang="en">North Rhine-Westphalia Ministry of School, and Education</Label>
+      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/2568150808954819000000</nameIdentifier> 
     </Value>
     </MDDef>
   <MDDef id="4" type="listmultiselect">
