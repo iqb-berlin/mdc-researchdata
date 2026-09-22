@@ -1011,14 +1011,14 @@
     </TypeSpec>
   </MDDef>
   <MDDef id="53" type="date">
-    <Label xml:lang="de">Sperrfrist - Datum</Label>
+    <Label xml:lang="de">Sperrvermerk/e laufen bis - Datum</Label>
     <Description xml:lang="de">auch für FAMe/ML relevant: bis zu diesem Datum dürfen die Daten nicht bereitgestellt werden</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
   </MDDef>
   <MDDef id="56" type="boolean">
-    <Label xml:lang="de">Sperrvermerk/e</Label>
+    <Label xml:lang="de">Embargo</Label>
     <Label xml:lang="en">Restriction Notice</Label>
     <Description xml:lang="de">bei ja Häckchen setzen</Description>
     <MDDefMetadata>
@@ -1428,7 +1428,7 @@
     </MDDefMetadata>
   </MDDef>
   <MDDef id="83" type="boolean">
-    <Label xml:lang="de">Sperrfrist</Label>
+    <Label xml:lang="de">Sperrvermerk/e</Label>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
     </MDDefMetadata>
