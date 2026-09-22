@@ -26,7 +26,6 @@
     <Value id="3">
       <Label xml:lang="de">Kultusministerkonferenz (KMK)</Label>
       <Label xml:lang="en">Standing Conference of the Ministers of Education and Cultural Affairs of the Länder in the Federal Republic of Germany</Label>
-      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/133243378</nameIdentifier>
     </Value>
     <Value id="4">
       <Label xml:lang="de">Senatsverwaltung für Bildung, Jugend und Sport des Landes Berlin</Label>
@@ -45,8 +44,7 @@
     </Value>
     <Value id="7">
       <Label xml:lang="de">Ministerium für Bildung, Jugend und Sport des Landes Brandenburg</Label>
-      <Label xml:lang="en">Brandenburg Ministry of Education, Youth, and Sport</Label>
-      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/312580233</nameIdentifier>  
+      <Label xml:lang="en">Brandenburg Ministry of Education, Youth, and Sport</Label> 
     </Value>
     <Value id="8">
       <Label xml:lang="de">International Association for the Evaluation of Educational Achievement (IEA)</Label>
@@ -60,8 +58,7 @@
     </Value>
     <Value id="10">
       <Label xml:lang="de">Europäischer Sozialfonds (ESF)</Label>
-      <Label xml:lang="en">The European Social Fund (ESF)</Label>
-      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/146102206</nameIdentifier>  
+      <Label xml:lang="en">The European Social Fund (ESF)</Label> 
     </Value>
     <Value id="11">
       <Label xml:lang="de">Europäische Union (EU)</Label>
@@ -106,13 +103,11 @@
     </Value>
     <Value id="143">
       <Label xml:lang="de">Mercator-Institut für Sprachförderung und Deutsch als Zweitsprache</Label>
-      <Label xml:lang="en">Mercator Institute for Literacy and Language Education</Label>
-      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/168838227</nameIdentifier> 
+      <Label xml:lang="en">Mercator Institute for Literacy and Language Education</Label> 
     </Value>
      <Value id="150">
       <Label xml:lang="de">Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen</Label>
       <Label xml:lang="en">North Rhine-Westphalia Ministry of School, and Education</Label>
-      <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org">http://viaf.org/viaf/2568150808954819000000</nameIdentifier> 
     </Value>
     </MDDef>
   <MDDef id="4" type="listmultiselect">
