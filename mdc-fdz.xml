@@ -1058,7 +1058,7 @@
     <Languages>de en</Languages></TypeSpec>
   </MDDef>
   <MDDef id="59" type="textde">
-    <Label xml:lang="de">Erläuterung zu Sperrvermerk/en und/oder Embargo</Label>
+    <Label xml:lang="de">Erläuterung zu Sperrvermerken/Embarog</Label>
     <Description xml:lang="de">für Angaben zu Sperrvermerken bei Variablen, bestimmten Fragestellungen; hier geht es um eine zeitliche Komponente; inhaltlich</Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">8</MD>
